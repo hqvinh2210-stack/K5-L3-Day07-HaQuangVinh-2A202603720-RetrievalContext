@@ -1,0 +1,9 @@
+[
+  {"query_id":"q16","answer_grade":0,"citation_support":[],"reason":"False abstention: TF-IDF không tìm được evidence tiếng Việt khi agent viết query tiếng Anh."},
+  {"query_id":"q17","answer_grade":0,"citation_support":[],"reason":"False abstention: không tìm được chunk định danh cơ quan chuyên trách."},
+  {"query_id":"q18","answer_grade":0,"citation_support":[],"reason":"False abstention: không tìm được evidence về đơn vị vận hành Cổng thông tin quốc gia."},
+  {"query_id":"q19","answer_grade":2,"citation_support":[true],"reason":"Đúng ngày hiệu lực 01/07/2023; citation p27 hỗ trợ đầy đủ."},
+  {"query_id":"q20","answer_grade":2,"citation_support":[true],"reason":"Đúng 02 năm và nêu đủ ngoại lệ doanh nghiệp trực tiếp kinh doanh xử lý dữ liệu."},
+  {"query_id":"q23","abstention_correct":true,"citation_support":[],"reason":"Từ chối đúng; tài liệu không có số hotline."},
+  {"query_id":"q24","abstention_correct":true,"citation_support":[],"reason":"Từ chối đúng; tài liệu không quy định tên chứng chỉ bắt buộc."}
+]

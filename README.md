@@ -78,6 +78,11 @@ khi cấu hình này đã khóa.
 ## Kết quả cuối
 
 - Retrieval test: TF-IDF và hybrid đều đạt Hit@3 `5/5`, Context Evidence Rate `5/5`; hybrid Hit@1 `3/5`.
+- Manual context audit: cả TF-IDF và hybrid đạt `5/5` context mức 2/2; xem
+  `starter/results/retrieval-test-final/context_reviews.json`.
+- Agent baseline TF-IDF trên TEST: 2 câu trả lời đúng, 2 abstention đúng và 3
+  false abstention trên 5 câu có đáp án (grounded mean `0,80/2`); kết quả được
+  giữ nguyên sau khi chạy, không dùng để tinh chỉnh TEST.
 - Agent dev: 15 câu trả lời + 2 abstain, grounded mean `1,93/2`, citation `22/22`, không lỗi.
 - Agent test: 4 câu trả lời, 2 abstain đúng, 1 provider error; grounded mean `1,75/2` trên bốn câu hoàn tất, citation `5/5`.
 - Provider/model: Anthropic `claude-haiku-5-5`; test chỉ chạy sau khi khóa cấu hình trên dev và không được chạy lại để tinh chỉnh.

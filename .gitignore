@@ -17,9 +17,15 @@ starter/results/*
 !starter/results/agent-dev/**
 !starter/results/agent-test-final/
 !starter/results/agent-test-final/**
+!starter/results/agent-test-baseline-final/
+!starter/results/agent-test-baseline-final/**
 
 # Copyrighted advanced source/extracted full text stays local.
 Data Science for Business_1.pdf
 advanced/data/
 advanced/results/
 tmp/pdfs/
+
+# Local presentation UI is not part of the coursework submission.
+demo-ui/
+demo-ui-site.tgz

@@ -33,6 +33,7 @@ Phân tích lỗi dev: TF-IDF không tìm được evidence cho `q01–q02` vì 
 | Cấu hình / split | Tool use | Số lượt gọi | Grounded answer 0/1/2 và trung bình | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
 |---|---|---|---|---|---|---|---|
 | Claude Haiku 5.5 / dev | 17/17 | 39 model calls; 22 search calls | 0/1/14; 1,93/2 | 22/22 | 15/15 | 2/2 | 0/15 |
+| Claude Haiku 5.5 / test, baseline TF-IDF | 7/7 | 33 model calls; 26 search calls | 3/0/2; 0,80/2 | 2/2 | 2/2 | 2/2 | 3/5 |
 | Claude Haiku 5.5 / test | 6/6 case không lỗi | 19 model calls; 1 provider error | 0/1/3; 1,75/2 trên 4 câu hoàn tất | 5/5 | 4/4 | 2/2 | 0/4 |
 
 | Query ID | Loại câu | Tool call và kết quả | Câu trả lời và citation | Nhãn, lý do |
@@ -45,15 +46,26 @@ Phân tích lỗi dev: TF-IDF không tìm được evidence cho `q01–q02` vì 
 | q23 | Test thiếu evidence | 3 search | “Không đủ bằng chứng để trả lời.” | Abstention đúng |
 
 - Retrieval: `starter/results/retrieval-dev-b3000/` và `starter/results/retrieval-test-final/`. Agent trace, review và metric: `starter/results/agent-dev/` và `starter/results/agent-test-final/`.
+- Audit context TEST bắt buộc đã đọc đủ 5 câu có đáp án cho cả TF-IDF và
+  hybrid: cả hai đạt `5/5` mức 2 (đủ evidence và nguồn). Nhãn và lý do nằm ở
+  `starter/results/retrieval-test-final/context_reviews.json`. Agent baseline
+  vẫn false-abstain `3/5` vì model viết query tiếng Anh trên corpus tiếng Việt;
+  kết quả được giữ nguyên, không chỉnh theo TEST.
 - Token/cost: dev 60.956 input + 10.896 output token, ước tính từ 0,011544 USD; test 32.364 input + 6.215 output token, ước tính từ 0,006344 USD theo mức giá cơ sở công bố của Haiku 5.5. Chi phí thực tế cần đối chiếu Claude Console.
+- Baseline agent TEST dùng 42.115 input + 7.993 output token, ước tính
+  0,008208 USD; tổng thời gian theo case 89,14 giây, median 12,98 giây.
 - Kết quả trước/sau: hybrid xen kẽ tăng dev Hit@3 từ dense 12/15 và TF-IDF 13/15 lên 15/15. Tăng budget 1.600 → 3.000 đưa Context Evidence Rate 10/15 → 15/15, đổi lại context trung bình tăng lên 2.268 ký tự. Giới hạn: Hit@1 hybrid test thấp hơn TF-IDF; model đôi khi thêm diễn giải ngoài trọng tâm (`q08`) hoặc bỏ điều kiện (`q20`); giới hạn output 1.024 gây một provider error (`q18`). Không chạy lại q18 để tránh sửa hệ thống sau khi xem test.
 
 ## Thử thách nâng cao (nếu thực hiện)
 
 ### Tài liệu, index và quyền sử dụng
 
-- Tài liệu: *Data Science for Business*, Foster Provost và Tom Fawcett, 2013;
-  bản PDF cục bộ `Data Science for Business_1.pdf`, 130 trang vật lý. Đây là
+- Tài liệu: *Data Science for Business*, Foster Provost và Tom Fawcett,
+  O'Reilly Media, 2013, ISBN `9781449374273`; bản PDF cục bộ
+  `Data Science for Business_1.pdf` là bản trích 130 trang vật lý. Pipeline
+  index toàn bộ 130/130 trang của file cung cấp, không tuyên bố đây là toàn bộ
+  ấn bản 414 trang. Trang truy cập/đối chiếu chính thức:
+  <https://www.oreilly.com/library/view/data-science-for/9781449374273/>. Đây là
   sách có bản quyền nên PDF, text trích xuất đầy đủ, vector và context dài không
   được đưa vào gói nộp. Người chấm tái tạo bằng cách đặt bản PDF hợp pháp cùng
   tên ở thư mục gốc rồi chạy `advanced/extract_and_index.py`.

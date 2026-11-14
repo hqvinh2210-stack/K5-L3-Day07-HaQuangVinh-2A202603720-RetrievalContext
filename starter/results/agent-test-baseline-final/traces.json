@@ -1,0 +1,726 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "group": null,
+    "question": "Biện pháp bảo vệ dữ liệu cá nhân phải được áp dụng trong giai đoạn nào?",
+    "method": "tfidf",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "elapsed_ms": 14876.199700011057,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "personal data protection measures stage processing",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "personal data protection measures lifecycle collection storage deletion",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "personal data processing stages security safeguards",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "personal data protection measures",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "group": null,
+    "question": "Cơ quan chuyên trách bảo vệ dữ liệu cá nhân là đơn vị nào?",
+    "method": "tfidf",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "elapsed_ms": 12613.543200001004,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "personal data protection responsible agency",
+        "filter": {
+          "section": "chuong_ii"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "personal data protection authority Ministry of Public Security",
+        "filter": {
+          "section": "chuong_ii"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "A05 Department of Cybersecurity and High-Tech Crime Prevention personal data protection",
+        "filter": {
+          "section": "chuong_ii"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "Decree 13/2023 personal data protection competent authority",
+        "filter": {
+          "section": "chuong_ii"
+        },
+        "results": [
+          {
+            "id": "nd13_2023:p013:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 13,
+            "text": "13\n\nfax (nếu có) và phương thức, thời hạn thanh toán; thực hiện việc cung cấp dữ liệu cá nhân theo trình tự, thủ tục quy định tại Điều này.\n\nĐiều 15. Chỉnh sửa dữ liệu cá nhân\n\n1. Chủ thể dữ liệu:\n\na) Được truy cập để xem, chỉnh sửa dữ liệu cá nhân của mình sau khi đã được Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thu thập theo sự đồng ý, trừ trường hợp luật có quy định khác;\n\nb) Trường hợp không thể chỉnh sửa trực tiếp vì lý do kỹ thuật hoặc vì lý do khác, chủ thể dữ liệu yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân chỉnh sửa dữ liệu cá nhân của mình.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_ii",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": 13,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.058161941588194696,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p022:paragraph:001",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 22,
+            "text": "4. Kiểm tra an ninh mạng đối với hệ thống và phương tiện, thiết bị phục vụ xử lý dữ liệu cá nhân trước khi xử lý, xoá không thể khôi phục được hoặc huỷ các thiết bị chứa dữ liệu cá nhân.\n\nĐiều 28. Bảo vệ dữ liệu cá nhân nhạy cảm\n\n1. Áp dụng các biện pháp được quy định tại khoản 2 Điều 26 và Điều 27 Nghị định này.\n\n2. Chỉ định bộ phận có chức năng bảo vệ dữ liệu cá nhân, chỉ định nhân sự phụ trách bảo vệ dữ liệu cá nhân và trao đổi thông tin về bộ phận và cá nhân phụ trách bảo vệ dữ liệu cá nhân với Cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu, Bên thứ ba là cá nhân thì trao đổi thông tin của cá nhân thực hiện.\n\n3. Thông báo cho chủ thể dữ liệu biết việc dữ liệu cá nhân nhạy cảm của chủ thể dữ liệu được xử lý, trừ trường hợp quy định tại khoản 4 Điều 13, Điều 17 và Điều 18 Nghị định này.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_ii",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 1,
+              "chunk_method": "paragraph",
+              "printed_page": 22,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.04759336884183014,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p010:paragraph:001",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 10,
+            "text": "3. Khi nhận yêu cầu rút lại sự đồng ý của chủ thể dữ liệu, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thông báo cho chủ thể dữ liệu về hậu quả, thiệt hại có thể xảy ra khi rút lại sự đồng ý.\n\n4. Sau khi thực hiện quy định tại khoản 2 Điều này, Bên Kiểm soát dữ liệu, Bên Xử lý dữ liệu, Bên Kiểm soát và xử lý dữ liệu, Bên thứ ba phải ngừng và yêu cầu các tổ chức, cá nhân có liên quan ngừng xử lý dữ liệu của chủ thể dữ liệu đã rút lại sự đồng ý.\n\nĐiều 13. Thông báo xử lý dữ liệu cá nhân\n\n1. Việc thông báo được thực hiện một lần trước khi tiến hành đối với hoạt động xử lý dữ liệu cá nhân.\n\n2. Nội dung thông báo cho chủ thể dữ liệu về xử lý dữ liệu cá nhân:\n\na) Mục đích xử lý;\n\nb) Loại dữ liệu cá nhân được sử dụng có liên quan tới mục đích xử lý quy định tại điểm a khoản 2 Điều này;\n\nc) Cách thức xử lý;",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_ii",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 1,
+              "chunk_method": "paragraph",
+              "printed_page": 10,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.047462327339403795,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[nd13_2023:p013:paragraph:000 | 13nd.signed.pdf | page 13]\n13\n\nfax (nếu có) và phương thức, thời hạn thanh toán; thực hiện việc cung cấp dữ liệu cá nhân theo trình tự, thủ tục quy định tại Điều này.\n\nĐiều 15. Chỉnh sửa dữ liệu cá nhân\n\n1. Chủ thể dữ liệu:\n\na) Được truy cập để xem, chỉnh sửa dữ liệu cá nhân của mình sau khi đã được Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thu thập theo sự đồng ý, trừ trường hợp luật có quy định khác;\n\nb) Trường hợp không thể chỉnh sửa trực tiếp vì lý do kỹ thuật hoặc vì lý do khác, chủ thể dữ liệu yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân chỉnh sửa dữ liệu cá nhân của mình.\n\n[nd13_2023:p022:paragraph:001 | 13nd.signed.pdf | page 22]\n4. Kiểm tra an ninh mạng đối với hệ thống và phương tiện, thiết bị phục vụ xử lý dữ liệu cá nhân trước khi xử lý, xoá không thể khôi phục được hoặc huỷ các thiết bị chứa dữ liệu cá nhân.\n\nĐiều 28. Bảo vệ dữ liệu cá nhân nhạy cảm\n\n1. Áp dụng các biện pháp được quy định tại khoản 2 Điều 26 và Điều 27 Nghị định này.\n\n2. Chỉ định bộ phận có chức năng bảo vệ dữ liệu cá nhân, chỉ định nhân sự phụ trách bảo vệ dữ liệu cá nhân và trao đổi thông tin về bộ phận và cá nhân phụ trách bảo vệ dữ liệu cá nhân với Cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu, Bên thứ ba là cá nhân thì trao đổi thông tin của cá nhân thực hiện.\n\n3. Thông báo cho chủ thể dữ liệu biết việc dữ liệu cá nhân nhạy cảm của chủ thể dữ liệu được xử lý, trừ trường hợp quy định tại khoản 4 Điều 13, Điều 17 và Điều 18 Nghị định này.\n\n[nd13_2023:p010:paragraph:001 | 13nd.signed.pdf | page 10]\n3. Khi nhận yêu cầu rút lại sự đồng ý của chủ thể dữ liệu, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thông báo cho chủ thể dữ liệu về hậu quả, thiệt hại có thể xảy ra khi rút lại sự đồng ý.\n\n4. Sau khi thực hiện quy định tại khoản 2 Điều này, Bên Kiểm soát dữ liệu, Bên Xử lý dữ liệu, Bên Kiểm soát và xử lý dữ liệu, Bên thứ ba phải ngừng và yêu cầu các tổ chức, cá nhân có liên quan ngừng xử lý dữ liệu của chủ thể dữ liệu đã rút lại sự đồng ý.\n\nĐiều 13. Thông báo xử lý dữ liệu cá nhân\n\n1. Việc thông báo được thực hiện một lần trước khi tiến hành đối với hoạt động xử lý dữ liệu cá nhân.\n\n2. Nội dung thông báo cho chủ thể dữ liệu về xử lý dữ liệu cá nhân:\n\na) Mục đích xử lý;\n\nb) Loại dữ liệu cá nhân được sử dụng có liên quan tới mục đích xử lý quy định tại điểm a khoản 2 Điều này;\n\nc) Cách thức xử lý;",
+        "context_ids": [
+          "nd13_2023:p013:paragraph:000",
+          "nd13_2023:p022:paragraph:001",
+          "nd13_2023:p010:paragraph:001"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "group": null,
+    "question": "Cơ quan nào xây dựng, quản lý và vận hành Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân?",
+    "method": "tfidf",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "elapsed_ms": 12983.81320000044,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "national portal personal data protection management operation agency",
+        "filter": {
+          "section": "chuong_iii"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "national portal personal data protection Ministry of Public Security",
+        "filter": {
+          "section": "chuong_iii"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "Decree 13/2023 national portal personal data protection built managed operated",
+        "filter": {
+          "section": "chuong_iii"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "personal data protection portal Vietnam authority",
+        "filter": {
+          "section": "chuong_iii"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "group": null,
+    "question": "Nghị định có hiệu lực từ ngày nào?",
+    "method": "tfidf",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "elapsed_ms": 15092.662800001563,
+    "status": "answered",
+    "answer": "Nghị định có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023 [nd13_2023:p027:paragraph:001].",
+    "citations": [
+      "nd13_2023:p027:paragraph:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "decree effective date",
+        "filter": {
+          "section": "chuong_iv"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "decree entry into force effective date",
+        "filter": {
+          "section": "chuong_iv"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "decree takes effect from date article",
+        "filter": {
+          "section": "chuong_iv"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "Nghị định hiệu lực thi hành",
+        "filter": {
+          "section": "chuong_iv"
+        },
+        "results": [
+          {
+            "id": "nd13_2023:p027:paragraph:001",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 27,
+            "text": "1. Có biện pháp bảo vệ dữ liệu cá nhân của mình, chịu trách nhiệm về tính chính xác của dữ liệu cá nhân do mình cung cấp.\n\n2. Thực hiện quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Thông báo kịp thời cho Bộ Công an về những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\n4. Phối hợp với Bộ Công an trong xử lý những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\nChương IV\nĐIỀU KHOẢN THI HÀNH\n\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iv",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 1,
+              "chunk_method": "paragraph",
+              "printed_page": 27,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.39001210693556276,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p028:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 28,
+            "text": "28\n\nĐiều 44. Trách nhiệm thi hành\n\n1. Bộ trưởng Bộ Công an đôn đốc, kiểm tra, hướng dẫn việc thực hiện Nghị định này.\n\n2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iv",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": 28,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.2216349203233214,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p027:paragraph:002",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 27,
+            "text": "3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[Ghi chú: có các vết/ký hiệu nhiễu trên scan ở dòng tiêu đề Điều 41, không ảnh hưởng đến nội dung đọc được.]",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iv",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 2,
+              "chunk_method": "paragraph",
+              "printed_page": 27,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.07244817718337997,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[nd13_2023:p027:paragraph:001 | 13nd.signed.pdf | page 27]\n1. Có biện pháp bảo vệ dữ liệu cá nhân của mình, chịu trách nhiệm về tính chính xác của dữ liệu cá nhân do mình cung cấp.\n\n2. Thực hiện quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Thông báo kịp thời cho Bộ Công an về những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\n4. Phối hợp với Bộ Công an trong xử lý những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\nChương IV\nĐIỀU KHOẢN THI HÀNH\n\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n\n[nd13_2023:p028:paragraph:000 | 13nd.signed.pdf | page 28]\n28\n\nĐiều 44. Trách nhiệm thi hành\n\n1. Bộ trưởng Bộ Công an đôn đốc, kiểm tra, hướng dẫn việc thực hiện Nghị định này.\n\n2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.\n\n[nd13_2023:p027:paragraph:002 | 13nd.signed.pdf | page 27]\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[Ghi chú: có các vết/ký hiệu nhiễu trên scan ở dòng tiêu đề Điều 41, không ảnh hưởng đến nội dung đọc được.]",
+        "context_ids": [
+          "nd13_2023:p027:paragraph:001",
+          "nd13_2023:p028:paragraph:000",
+          "nd13_2023:p027:paragraph:002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "group": null,
+    "question": "Doanh nghiệp nhỏ được lựa chọn miễn trừ chỉ định nhân sự bảo vệ dữ liệu trong bao lâu kể từ khi thành lập?",
+    "method": "tfidf",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "elapsed_ms": 7068.2789999991655,
+    "status": "answered",
+    "answer": "Theo Điều 43 khoản 2 Nghị định 13/2023/NĐ-CP, các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa và doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp [nd13_2023:p027:paragraph:002]. Lưu ý: khoản 3 quy định doanh nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quyền miễn trừ này [nd13_2023:p027:paragraph:002].",
+    "citations": [
+      "nd13_2023:p027:paragraph:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "small enterprise exemption data protection officer appointment years since establishment",
+        "filter": {
+          "section": "chuong_iv"
+        },
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "DPO appointment exemption small enterprise 2 years since establishment",
+        "filter": {
+          "section": "chuong_iv"
+        },
+        "results": [
+          {
+            "id": "nd13_2023:p027:paragraph:001",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 27,
+            "text": "1. Có biện pháp bảo vệ dữ liệu cá nhân của mình, chịu trách nhiệm về tính chính xác của dữ liệu cá nhân do mình cung cấp.\n\n2. Thực hiện quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Thông báo kịp thời cho Bộ Công an về những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\n4. Phối hợp với Bộ Công an trong xử lý những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\nChương IV\nĐIỀU KHOẢN THI HÀNH\n\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iv",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 1,
+              "chunk_method": "paragraph",
+              "printed_page": 27,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.07795304617178599,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p027:paragraph:002",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 27,
+            "text": "3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[Ghi chú: có các vết/ký hiệu nhiễu trên scan ở dòng tiêu đề Điều 41, không ảnh hưởng đến nội dung đọc được.]",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iv",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 2,
+              "chunk_method": "paragraph",
+              "printed_page": 27,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.061911338005857484,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p028:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 28,
+            "text": "28\n\nĐiều 44. Trách nhiệm thi hành\n\n1. Bộ trưởng Bộ Công an đôn đốc, kiểm tra, hướng dẫn việc thực hiện Nghị định này.\n\n2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iv",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": 28,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.05586138537605075,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[nd13_2023:p027:paragraph:001 | 13nd.signed.pdf | page 27]\n1. Có biện pháp bảo vệ dữ liệu cá nhân của mình, chịu trách nhiệm về tính chính xác của dữ liệu cá nhân do mình cung cấp.\n\n2. Thực hiện quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Thông báo kịp thời cho Bộ Công an về những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\n4. Phối hợp với Bộ Công an trong xử lý những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\nChương IV\nĐIỀU KHOẢN THI HÀNH\n\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n\n[nd13_2023:p027:paragraph:002 | 13nd.signed.pdf | page 27]\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[Ghi chú: có các vết/ký hiệu nhiễu trên scan ở dòng tiêu đề Điều 41, không ảnh hưởng đến nội dung đọc được.]\n\n[nd13_2023:p028:paragraph:000 | 13nd.signed.pdf | page 28]\n28\n\nĐiều 44. Trách nhiệm thi hành\n\n1. Bộ trưởng Bộ Công an đôn đốc, kiểm tra, hướng dẫn việc thực hiện Nghị định này.\n\n2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.",
+        "context_ids": [
+          "nd13_2023:p027:paragraph:001",
+          "nd13_2023:p027:paragraph:002",
+          "nd13_2023:p028:paragraph:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "answerable": false,
+    "group": null,
+    "question": "Số điện thoại đường dây nóng quốc gia về bảo vệ dữ liệu cá nhân là số nào?",
+    "method": "tfidf",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "elapsed_ms": 13817.406400004984,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "national hotline personal data protection phone number",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "Vietnam personal data protection hotline phone number",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "personal data protection hotline Decree 13/2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd13_2023:p029:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 29,
+            "text": "[Con dấu tròn: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM - CHÍNH PHỦ]\n\nPhụ lục\n(Kèm theo Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ) [một phần chữ bị con dấu che, đọc theo ngữ cảnh: ngày 1[KHÔNG ĐỌC RÕ] tháng 4 năm 2023]\n\nMẫu số 01 | Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho cá nhân)\nMẫu số 02 | Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho tổ chức, doanh nghiệp)\nMẫu số 03 | Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\nMẫu số 04 | Thông báo gửi hồ sơ đánh giá tác động xử lý dữ liệu cá nhân\nMẫu số 05 | Thông báo thay đổi nội dung hồ sơ\nMẫu số 06 | Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài",
+            "metadata": {
+              "year": 2023,
+              "section": "phu_luc",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": null,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.25511452250742145,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p001:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 1,
+            "text": "VGP CHINHPHU.VN\nNgười ký: Cổng Thông tin điện tử Chính phủ\nEmail: thongtinchinhphu@chinhphu.vn\nCơ quan: Văn phòng Chính phủ\nThời gian ký: 19.04.2023 14:22:26 +07:00\n[KHÔNG ĐỌC RÕ] (chữ viết tay góc trên bên phải)\n\nCHÍNH PHỦ\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nSố: 13/2023/NĐ-CP\nHà Nội, ngày 17 tháng 4 năm 2023\n\nCỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ\nĐẾN Giờ: 5 [chữ viết tay, KHÔNG ĐỌC RÕ]\nNgày: 19.4.2023 [chữ viết tay, KHÔNG ĐỌC RÕ]\n\nNGHỊ ĐỊNH\nBảo vệ dữ liệu cá nhân\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Bộ luật Dân sự ngày 24 tháng 11 năm 2015;\n\nCăn cứ Luật An ninh quốc gia ngày 03 tháng 12 năm 2004;\n\nCăn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;\n\nTheo đề nghị của Bộ trưởng Bộ Công an;",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_i",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": null,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.21316996811237493,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p027:paragraph:001",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 27,
+            "text": "1. Có biện pháp bảo vệ dữ liệu cá nhân của mình, chịu trách nhiệm về tính chính xác của dữ liệu cá nhân do mình cung cấp.\n\n2. Thực hiện quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Thông báo kịp thời cho Bộ Công an về những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\n4. Phối hợp với Bộ Công an trong xử lý những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\nChương IV\nĐIỀU KHOẢN THI HÀNH\n\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iv",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 1,
+              "chunk_method": "paragraph",
+              "printed_page": 27,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.0698344855568814,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[nd13_2023:p029:paragraph:000 | 13nd.signed.pdf | page 29]\n[Con dấu tròn: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM - CHÍNH PHỦ]\n\nPhụ lục\n(Kèm theo Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ) [một phần chữ bị con dấu che, đọc theo ngữ cảnh: ngày 1[KHÔNG ĐỌC RÕ] tháng 4 năm 2023]\n\nMẫu số 01 | Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho cá nhân)\nMẫu số 02 | Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho tổ chức, doanh nghiệp)\nMẫu số 03 | Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\nMẫu số 04 | Thông báo gửi hồ sơ đánh giá tác động xử lý dữ liệu cá nhân\nMẫu số 05 | Thông báo thay đổi nội dung hồ sơ\nMẫu số 06 | Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài\n\n[nd13_2023:p001:paragraph:000 | 13nd.signed.pdf | page 1]\nVGP CHINHPHU.VN\nNgười ký: Cổng Thông tin điện tử Chính phủ\nEmail: thongtinchinhphu@chinhphu.vn\nCơ quan: Văn phòng Chính phủ\nThời gian ký: 19.04.2023 14:22:26 +07:00\n[KHÔNG ĐỌC RÕ] (chữ viết tay góc trên bên phải)\n\nCHÍNH PHỦ\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nSố: 13/2023/NĐ-CP\nHà Nội, ngày 17 tháng 4 năm 2023\n\nCỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ\nĐẾN Giờ: 5 [chữ viết tay, KHÔNG ĐỌC RÕ]\nNgày: 19.4.2023 [chữ viết tay, KHÔNG ĐỌC RÕ]\n\nNGHỊ ĐỊNH\nBảo vệ dữ liệu cá nhân\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Bộ luật Dân sự ngày 24 tháng 11 năm 2015;\n\nCăn cứ Luật An ninh quốc gia ngày 03 tháng 12 năm 2004;\n\nCăn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;\n\nTheo đề nghị của Bộ trưởng Bộ Công an;\n\n[nd13_2023:p027:paragraph:001 | 13nd.signed.pdf | page 27]\n1. Có biện pháp bảo vệ dữ liệu cá nhân của mình, chịu trách nhiệm về tính chính xác của dữ liệu cá nhân do mình cung cấp.\n\n2. Thực hiện quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Thông báo kịp thời cho Bộ Công an về những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\n4. Phối hợp với Bộ Công an trong xử lý những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\nChương IV\nĐIỀU KHOẢN THI HÀNH\n\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.",
+        "context_ids": [
+          "nd13_2023:p029:paragraph:000",
+          "nd13_2023:p001:paragraph:000",
+          "nd13_2023:p027:paragraph:001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "đường dây nóng Bộ Công an",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd13_2023:p032:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 32,
+            "text": "4\n\nMẫu số 03\n\nTÊN TỔ CHỨC\n______\nSố:\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\n....., ngày ... tháng ... năm ...\n\nTHÔNG BÁO\nVI PHẠM QUY ĐỊNH BẢO VỆ DỮ LIỆU CÁ NHÂN\n\nKính gửi: Bộ Công an\n(Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao, Bộ Công an)\n\nThực hiện quy định về bảo vệ dữ liệu cá nhân, ..................¹ gửi Bộ Công an hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, như sau:",
+            "metadata": {
+              "year": 2023,
+              "section": "phu_luc",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": 4,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.3020357139085959,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p034:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 34,
+            "text": "6\n\nMẫu số 04\n\nTÊN TỔ CHỨC\n______\nSố:\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\n........, ngày ... tháng ... năm ...\n\nTHÔNG BÁO\nGỬI HỒ SƠ ĐÁNH GIÁ TÁC ĐỘNG XỬ LÝ DỮ LIỆU CÁ NHÂN\n\nKính gửi: Bộ Công an\n(Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao, Bộ Công an)\n\nThực hiện quy định về bảo vệ dữ liệu cá nhân, ..................¹ gửi Bộ Công an Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, như sau:",
+            "metadata": {
+              "year": 2023,
+              "section": "phu_luc",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": 6,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.2806990069805735,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nd13_2023:p038:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 38,
+            "text": "10\n\nMẫu số 06\n\nTÊN TỔ CHỨC\n______\nSố:\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\n....., ngày ... tháng ... năm ...\n\nHỒ SƠ ĐÁNH GIÁ TÁC ĐỘNG CHUYỂN DỮ LIỆU CÁ NHÂN\nRA NƯỚC NGOÀI\n\nKính gửi: Bộ Công an\n(Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao, Bộ Công an)\n\nThực hiện quy định về bảo vệ dữ liệu cá nhân, ..................¹ gửi Bộ Công an Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài, như sau:",
+            "metadata": {
+              "year": 2023,
+              "section": "phu_luc",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": 10,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.2754412284377094,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[nd13_2023:p029:paragraph:000 | 13nd.signed.pdf | page 29]\n[Con dấu tròn: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM - CHÍNH PHỦ]\n\nPhụ lục\n(Kèm theo Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ) [một phần chữ bị con dấu che, đọc theo ngữ cảnh: ngày 1[KHÔNG ĐỌC RÕ] tháng 4 năm 2023]\n\nMẫu số 01 | Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho cá nhân)\nMẫu số 02 | Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho tổ chức, doanh nghiệp)\nMẫu số 03 | Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\nMẫu số 04 | Thông báo gửi hồ sơ đánh giá tác động xử lý dữ liệu cá nhân\nMẫu số 05 | Thông báo thay đổi nội dung hồ sơ\nMẫu số 06 | Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài\n\n[nd13_2023:p001:paragraph:000 | 13nd.signed.pdf | page 1]\nVGP CHINHPHU.VN\nNgười ký: Cổng Thông tin điện tử Chính phủ\nEmail: thongtinchinhphu@chinhphu.vn\nCơ quan: Văn phòng Chính phủ\nThời gian ký: 19.04.2023 14:22:26 +07:00\n[KHÔNG ĐỌC RÕ] (chữ viết tay góc trên bên phải)\n\nCHÍNH PHỦ\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nSố: 13/2023/NĐ-CP\nHà Nội, ngày 17 tháng 4 năm 2023\n\nCỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ\nĐẾN Giờ: 5 [chữ viết tay, KHÔNG ĐỌC RÕ]\nNgày: 19.4.2023 [chữ viết tay, KHÔNG ĐỌC RÕ]\n\nNGHỊ ĐỊNH\nBảo vệ dữ liệu cá nhân\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Bộ luật Dân sự ngày 24 tháng 11 năm 2015;\n\nCăn cứ Luật An ninh quốc gia ngày 03 tháng 12 năm 2004;\n\nCăn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;\n\nTheo đề nghị của Bộ trưởng Bộ Công an;\n\n[nd13_2023:p027:paragraph:001 | 13nd.signed.pdf | page 27]\n1. Có biện pháp bảo vệ dữ liệu cá nhân của mình, chịu trách nhiệm về tính chính xác của dữ liệu cá nhân do mình cung cấp.\n\n2. Thực hiện quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Thông báo kịp thời cho Bộ Công an về những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\n4. Phối hợp với Bộ Công an trong xử lý những vi phạm liên quan tới hoạt động bảo vệ dữ liệu cá nhân.\n\nChương IV\nĐIỀU KHOẢN THI HÀNH\n\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n\n[nd13_2023:p032:paragraph:000 | 13nd.signed.pdf | page 32]\n4\n\nMẫu số 03\n\nTÊN TỔ CHỨC\n______\nSố:\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\n....., ngày ... tháng ... năm ...\n\nTHÔNG BÁO\nVI PHẠM QUY ĐỊNH BẢO VỆ DỮ LIỆU CÁ NHÂN\n\nKính gửi: Bộ Công an\n(Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao, Bộ Công an)\n\nThực hiện quy định về bảo vệ dữ liệu cá nhân, ..................¹ gửi Bộ Công an hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, như sau:",
+        "context_ids": [
+          "nd13_2023:p029:paragraph:000",
+          "nd13_2023:p001:paragraph:000",
+          "nd13_2023:p027:paragraph:001",
+          "nd13_2023:p032:paragraph:000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "answerable": false,
+    "group": null,
+    "question": "Nhân sự bảo vệ dữ liệu bắt buộc phải có chứng chỉ nghề nghiệp tên gì?",
+    "method": "tfidf",
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "elapsed_ms": 12684.568999990006,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "data protection officer professional certification requirement",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "DPO mandatory certification qualification",
+        "filter": null,
+        "results": [],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "data protection officer qualifications professional expertise certificate Article 37",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd13_2023:p026:paragraph:000",
+            "source_id": "nd13_2023",
+            "source": "13nd.signed.pdf",
+            "page": 26,
+            "text": "26\n\nĐiều 37. Trách nhiệm của Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương\n\n1. Thực hiện quản lý nhà nước đối với bảo vệ dữ liệu cá nhân đối với các ngành, lĩnh vực quản lý theo quy định của pháp luật về bảo vệ dữ liệu cá nhân.\n\n2. Triển khai các quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Bố trí kinh phí phục vụ hoạt động bảo vệ dữ liệu cá nhân theo phân cấp quản lý ngân sách hiện hành.\n\n4. Ban hành Danh mục dữ liệu mở phù hợp với quy định bảo vệ dữ liệu cá nhân.\n\nĐiều 38. Trách nhiệm của Bên Kiểm soát dữ liệu cá nhân\n\n1. Thực hiện các biện pháp tổ chức và kỹ thuật cùng các biện pháp an toàn, bảo mật phù hợp để chứng minh các hoạt động xử lý dữ liệu đã được thực hiện theo quy định của pháp luật về bảo vệ dữ liệu cá nhân, rà soát và cập nhật các biện pháp này khi cần thiết.\n\n2. Ghi lại và lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân.",
+            "metadata": {
+              "year": 2023,
+              "section": "chuong_iii",
+              "language": "vi",
+              "max_size": 900,
+              "ocr_source": "chatgpt",
+              "chunk_index": 0,
+              "chunk_method": "paragraph",
+              "printed_page": 26,
+              "document_type": "nghi_dinh"
+            },
+            "score": 0.10165860265446294,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[nd13_2023:p026:paragraph:000 | 13nd.signed.pdf | page 26]\n26\n\nĐiều 37. Trách nhiệm của Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương\n\n1. Thực hiện quản lý nhà nước đối với bảo vệ dữ liệu cá nhân đối với các ngành, lĩnh vực quản lý theo quy định của pháp luật về bảo vệ dữ liệu cá nhân.\n\n2. Triển khai các quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Bố trí kinh phí phục vụ hoạt động bảo vệ dữ liệu cá nhân theo phân cấp quản lý ngân sách hiện hành.\n\n4. Ban hành Danh mục dữ liệu mở phù hợp với quy định bảo vệ dữ liệu cá nhân.\n\nĐiều 38. Trách nhiệm của Bên Kiểm soát dữ liệu cá nhân\n\n1. Thực hiện các biện pháp tổ chức và kỹ thuật cùng các biện pháp an toàn, bảo mật phù hợp để chứng minh các hoạt động xử lý dữ liệu đã được thực hiện theo quy định của pháp luật về bảo vệ dữ liệu cá nhân, rà soát và cập nhật các biện pháp này khi cần thiết.\n\n2. Ghi lại và lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân.",
+        "context_ids": [
+          "nd13_2023:p026:paragraph:000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "personal data protection specialist professional certificate requirement",
+        "filter": null,
+        "results": [],
+        "context": "[nd13_2023:p026:paragraph:000 | 13nd.signed.pdf | page 26]\n26\n\nĐiều 37. Trách nhiệm của Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương\n\n1. Thực hiện quản lý nhà nước đối với bảo vệ dữ liệu cá nhân đối với các ngành, lĩnh vực quản lý theo quy định của pháp luật về bảo vệ dữ liệu cá nhân.\n\n2. Triển khai các quy định về bảo vệ dữ liệu cá nhân tại Nghị định này.\n\n3. Bố trí kinh phí phục vụ hoạt động bảo vệ dữ liệu cá nhân theo phân cấp quản lý ngân sách hiện hành.\n\n4. Ban hành Danh mục dữ liệu mở phù hợp với quy định bảo vệ dữ liệu cá nhân.\n\nĐiều 38. Trách nhiệm của Bên Kiểm soát dữ liệu cá nhân\n\n1. Thực hiện các biện pháp tổ chức và kỹ thuật cùng các biện pháp an toàn, bảo mật phù hợp để chứng minh các hoạt động xử lý dữ liệu đã được thực hiện theo quy định của pháp luật về bảo vệ dữ liệu cá nhân, rà soát và cập nhật các biện pháp này khi cần thiết.\n\n2. Ghi lại và lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân.",
+        "context_ids": [
+          "nd13_2023:p026:paragraph:000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  }
+]

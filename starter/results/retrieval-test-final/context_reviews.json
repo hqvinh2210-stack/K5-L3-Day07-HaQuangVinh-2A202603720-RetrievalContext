@@ -1,0 +1,12 @@
+[
+  {"query_id":"q16","method":"tfidf","context_grade":2,"reason":"Context chứa đúng Điều 26: áp dụng ngay từ khi bắt đầu và trong suốt quá trình xử lý."},
+  {"query_id":"q17","method":"tfidf","context_grade":2,"reason":"Context chứa đúng tên Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao thuộc Bộ Công an."},
+  {"query_id":"q18","method":"tfidf","context_grade":2,"reason":"Context chứa đúng quy định Bộ Công an xây dựng, quản lý và vận hành Cổng thông tin quốc gia."},
+  {"query_id":"q19","method":"tfidf","context_grade":2,"reason":"Context chứa đầy đủ ngày hiệu lực 01 tháng 7 năm 2023 và nguồn trang 27."},
+  {"query_id":"q20","method":"tfidf","context_grade":2,"reason":"Context chứa đủ thời hạn 02 năm và ngoại lệ doanh nghiệp trực tiếp kinh doanh xử lý dữ liệu."},
+  {"query_id":"q16","method":"hybrid_interleave","context_grade":2,"reason":"Context cuối chứa evidence đầy đủ ở trang 21 và nguồn truy vết hợp lệ."},
+  {"query_id":"q17","method":"hybrid_interleave","context_grade":2,"reason":"Context cuối chứa đúng cơ quan chuyên trách và trang nguồn."},
+  {"query_id":"q18","method":"hybrid_interleave","context_grade":2,"reason":"Context cuối chứa đúng chủ thể Bộ Công an cùng nhiệm vụ vận hành Cổng thông tin."},
+  {"query_id":"q19","method":"hybrid_interleave","context_grade":2,"reason":"Evidence ngày hiệu lực nằm ở hạng 2 nhưng vẫn được giữ trọn trong context."},
+  {"query_id":"q20","method":"hybrid_interleave","context_grade":2,"reason":"Evidence chính ở hạng 1, bao gồm cả thời hạn và ngoại lệ, nên context đủ điều kiện."}
+]

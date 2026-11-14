@@ -108,6 +108,18 @@ python3 starter/agent_metrics.py --cases <cases.json> --traces <traces.json> --r
 
 Thay đường dẫn trong `< >`. Script tổng hợp nhãn bạn đã chấm, không tự đánh giá nội dung. Mẫu số bằng 0 nghĩa là không áp dụng. Lỗi kết nối được báo riêng, không tính vào chất lượng; giữ trace và nhãn để đối chiếu.
 
+### Kết quả đối chứng TEST đã bổ sung
+
+Baseline agent TF-IDF đã được chạy trên cùng TEST sau khi khóa cấu hình và giữ
+nguyên kết quả trong `results/agent-test-baseline-final/`: 2/5 câu có đáp án
+được trả lời đúng, 3/5 false abstention, 2/2 abstention đúng, không lỗi provider.
+Đối chiếu này cho thấy query rewrite tiếng Anh không phù hợp corpus tiếng Việt,
+dù direct TF-IDF bằng query gốc đạt Context Evidence Rate 5/5.
+
+Nhãn context thủ công cho 5 câu TEST có đáp án của cả baseline và cấu hình chọn
+nằm ở `results/retrieval-test-final/context_reviews.json`; cả hai đạt 5/5 mức
+2 (đủ evidence và nguồn).
+
 ## Lưu ý
 
 TF-IDF dùng cách tách từ đơn giản. `baseline.py` dùng mặc định context budget 800 ký tự, gồm cả nguồn; chunk không vừa bị bỏ. Bạn có thể chọn cách khác. File kết quả cùng tên sẽ bị ghi đè. `starter/data/` và `starter/results/` không được Git theo dõi mặc định; nếu được phép chia sẻ, dùng `git add -f <đường-dẫn>`, hoặc ghi cách tái tạo. Không nộp dữ liệu mật và secret.

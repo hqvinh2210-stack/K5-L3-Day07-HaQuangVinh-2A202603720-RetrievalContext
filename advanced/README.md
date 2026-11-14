@@ -5,11 +5,17 @@ DEV/TEST riêng và đánh giá agent mà không đưa gold vào lúc chạy.
 
 ## Nguồn và quyền sử dụng
 
-- Tài liệu: *Data Science for Business*, Foster Provost và Tom Fawcett, 2013.
-- File đầu vào cục bộ: `Data Science for Business_1.pdf` (130 trang vật lý).
+- Tài liệu: *Data Science for Business*, Foster Provost và Tom Fawcett,
+  O'Reilly Media, 2013, ISBN `9781449374273`. Trang publisher chính thức:
+  <https://www.oreilly.com/library/view/data-science-for/9781449374273/>.
+- File đầu vào cục bộ: `Data Science for Business_1.pdf` (bản trích 130 trang
+  vật lý). Pipeline index toàn bộ 130/130 trang của file được cung cấp; không
+  tuyên bố đây là toàn bộ ấn bản 414 trang của nhà xuất bản.
 - Đây là sách có bản quyền. PDF, text trích xuất đầy đủ, vector và kết quả chứa
   context dài đều bị `.gitignore` loại khỏi gói nộp. Người chấm cần tự đặt bản
-  PDF hợp pháp cùng tên vào thư mục gốc rồi chạy lại pipeline.
+  PDF trích 130 trang hợp pháp cùng tên vào thư mục gốc rồi chạy lại pipeline.
+  Người chấm có thể đối chiếu metadata/ấn bản và truy cập hợp pháp qua trang
+  O'Reilly ở trên; repo không tái phân phối PDF.
 - Benchmark chỉ lưu các trích đoạn ngắn cần thiết để kiểm chứng câu hỏi.
 
 ## Pipeline

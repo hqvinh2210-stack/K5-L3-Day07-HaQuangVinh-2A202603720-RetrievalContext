@@ -1,0 +1,12 @@
+{
+  "split": "test",
+  "reviewed_answerable_questions_per_method": 5,
+  "grading": {
+    "0": "không có evidence",
+    "1": "có evidence nhưng thiếu điều kiện hoặc nguồn",
+    "2": "đủ evidence và nguồn"
+  },
+  "tfidf": {"grade_0": 0, "grade_1": 0, "grade_2": 5, "mean": 2.0},
+  "hybrid_interleave": {"grade_0": 0, "grade_1": 0, "grade_2": 5, "mean": 2.0},
+  "note": "Nhãn được đọc thủ công từ context cuối trong traces.json; không suy ra chỉ từ context_hit."
+}
