@@ -1,0 +1,272 @@
+{
+  "document_id": "dsfb_2013_excerpt",
+  "benchmark_version": "1.0",
+  "policy": "DEV is for configuration selection. TEST is sealed until the pipeline is locked. Unanswerable questions require search followed by abstention.",
+  "questions": [
+    {
+      "id": "d01", "split": "dev", "group": "table", "answerable": true,
+      "question": "Trong Bảng 3-2, LONG_CALLS_PER_MONTH có nghĩa là gì?",
+      "expected_answer": "Số cuộc gọi trung bình mỗi tháng kéo dài ít nhất 15 phút.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 98, "evidence": "LONG_CALLS_PER_MONTH is average number of calls lasting 15 minutes or more", "region": {"label": "Table 3-2", "bbox": [72.0, 357.0, 432.0, 604.0]}}]
+    },
+    {
+      "id": "d02", "split": "dev", "group": "table", "answerable": true,
+      "question": "Theo Bảng 4-1, xác suất 0.001 tương ứng odds bằng bao nhiêu?",
+      "expected_answer": "1:999, hay xấp xỉ 0.001001.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 121, "evidence": "0.001 -> 1:999 or 0.001001", "region": {"label": "Table 4-1", "bbox": [72.0, 480.0, 432.0, 610.0]}}]
+    },
+    {
+      "id": "d03", "split": "dev", "group": "table", "answerable": true,
+      "question": "Bảng 4-3 định nghĩa thuộc tính CONCAVE POINTS như thế nào?",
+      "expected_answer": "Số phần lõm của đường viền.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 128, "evidence": "CONCAVE POINTS is their count", "region": {"label": "Table 4-3", "bbox": [72.0, 55.0, 432.0, 346.0]}}]
+    },
+    {
+      "id": "d04", "split": "dev", "group": "image", "answerable": true,
+      "question": "Hình 1-1 đặt data science trong bối cảnh nào và phần văn bản kèm theo định nghĩa DDD ra sao?",
+      "expected_answer": "Hình đặt data science trong các quy trình dữ liệu của tổ chức; DDD là ra quyết định dựa trên phân tích dữ liệu thay vì chỉ dựa vào trực giác.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 29, "evidence": "Places data science in the context of data-driven decision making and other organizational data processes", "region": {"label": "Figure 1-1", "bbox": [175.9, 67.2, 328.1, 317.7]}}]
+    },
+    {
+      "id": "d05", "split": "dev", "group": "image", "answerable": true,
+      "question": "Trong Hình 3-2, dấu Yes/No và hình dạng, màu sắc lần lượt biểu diễn gì?",
+      "expected_answer": "Yes/No là nhãn lớp mục tiêu; hình dạng và màu sắc là các thuộc tính dự báo.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 73, "evidence": "Yes/No labels above heads are target values; head shape, body shape, body color and similar visual properties are predictor attributes", "region": {"label": "Figure 3-2"}}]
+    },
+    {
+      "id": "d06", "split": "dev", "group": "image", "answerable": true,
+      "question": "Trong Hình 3-15, chấm đen, dấu cộng và vùng tô bóng biểu diễn gì?",
+      "expected_answer": "Chấm đen là ca Write-off, dấu cộng là ca không Write-off, còn vùng tô bóng là cách các lá cây phân vùng quần thể.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 94, "evidence": "Black dots are Write-off cases, plus signs are non-Write-off cases, and shaded regions show how tree leaves partition the population", "region": {"label": "Figure 3-15", "bbox": [79.2, 242.6, 424.8, 524.8]}}]
+    },
+    {
+      "id": "d07", "split": "dev", "group": "chart", "answerable": true,
+      "question": "Trong biểu đồ Hình 3-7, chiều rộng và chiều cao của mỗi cột mang ý nghĩa gì?",
+      "expected_answer": "Chiều rộng là mức phổ biến của giá trị; chiều cao là entropy của giá trị đó.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 84, "evidence": "Each bar width shows that value's prevalence and its height shows entropy", "region": {"label": "Figure 3-7", "bbox": [101.2, 57.2, 402.8, 306.4]}}]
+    },
+    {
+      "id": "d08", "split": "dev", "group": "chart", "answerable": true,
+      "question": "Hình 3-16 cho thấy Laplace smoothing ảnh hưởng thế nào khi số mẫu nhỏ?",
+      "expected_answer": "Ảnh hưởng mạnh nhất khi số mẫu nhỏ; khi số mẫu tăng, ước lượng tiến gần tỷ lệ quan sát thô.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 98, "evidence": "smoothing has strongest effect at small sample sizes", "region": {"label": "Figure 3-16", "bbox": [79.2, 57.2, 424.8, 306.3]}}]
+    },
+    {
+      "id": "d09", "split": "dev", "group": "chart", "answerable": true,
+      "question": "Trong Hình 3-17, hai thuộc tính nào có information gain bằng 0?",
+      "expected_answer": "COLLEGE và USAGE_LEVEL, đều bằng 0.0000.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 100, "evidence": "COLLEGE 0.0000, USAGE_LEVEL 0.0000", "region": {"label": "Figure 3-17", "bbox": [86.6, 57.2, 417.4, 448.2]}}]
+    },
+    {
+      "id": "d10", "split": "dev", "group": "multi_hop", "answerable": true, "requires_all_gold": true,
+      "question": "Kết hợp Hình 2-1 và Hình 2-2: hai pha mining/use khác nhau thế nào, và CRISP-DM nói gì về việc lặp lại quy trình?",
+      "expected_answer": "Pha mining học mô hình từ dữ liệu lịch sử có nhãn; pha use áp dụng mô hình cho trường hợp mới chưa biết lớp. CRISP-DM xem lặp lại là quy tắc, không phải ngoại lệ.",
+      "gold": [
+        {"source_id": "dsfb_2013_excerpt", "page": 50, "evidence": "The upper mining phase transforms historical data with known class labels into a model", "region": {"label": "Figure 2-1"}},
+        {"source_id": "dsfb_2013_excerpt", "page": 51, "evidence": "the figure emphasizes iteration rather than a one-pass linear process", "region": {"label": "Figure 2-2"}}
+      ]
+    },
+    {
+      "id": "d11", "split": "dev", "group": "multi_hop", "answerable": true, "requires_all_gold": true,
+      "question": "Bộ Mushroom có tổng bao nhiêu mẫu, bao nhiêu poisonous và edible, và entropy ban đầu xấp xỉ bao nhiêu?",
+      "expected_answer": "5,644 mẫu: 2,156 poisonous và 3,488 edible; entropy ban đầu khoảng 0.96.",
+      "gold": [
+        {"source_id": "dsfb_2013_excerpt", "page": 81, "evidence": "We use 5,644 examples from the dataset, comprising 2,156"},
+        {"source_id": "dsfb_2013_excerpt", "page": 82, "evidence": "its entropy is 0.96"}
+      ]
+    },
+    {
+      "id": "d12", "split": "dev", "group": "multi_hop", "answerable": true, "requires_all_gold": true,
+      "question": "Độ chính xác 73% của cây churn được đo trên dữ liệu nào, và tài liệu chỉ ra vấn đề đánh giá này sẽ được bàn lại ở đâu?",
+      "expected_answer": "Nó được đo trên chính dữ liệu huấn luyện; độ tin cậy và tính hữu ích của đánh giá được bàn lại ở Chương 7 và 8.",
+      "gold": [
+        {"source_id": "dsfb_2013_excerpt", "page": 101, "evidence": "73 percent accuracy on the same training data"},
+        {"source_id": "dsfb_2013_excerpt", "page": 102, "evidence": "Chapter 7 and Chapter 8"}
+      ]
+    },
+    {
+      "id": "d13", "split": "dev", "group": "text", "answerable": true,
+      "question": "Tài liệu phân biệt data science và data mining ở mức khái quát như thế nào?",
+      "expected_answer": "Data science là các nguyên lý nền tảng hướng dẫn trích xuất tri thức từ dữ liệu; data mining là việc trích xuất tri thức bằng các công nghệ hiện thực hóa các nguyên lý đó.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 26, "evidence": "data science is a set of fundamental principles that guide the extraction of knowledge from data. Data mining is the extraction of knowledge from data"}]
+    },
+    {
+      "id": "d14", "split": "dev", "group": "text", "answerable": true,
+      "question": "Trong ví dụ MegaTelCo, tỷ lệ khách rời đi là bao nhiêu và vì sao giữ khách quan trọng?",
+      "expected_answer": "20% khách rời khi hợp đồng hết hạn; thị trường đã bão hòa và thu hút khách mới đắt hơn giữ khách hiện có.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 28, "evidence": "20% of cell phone customers leave when their contracts expire"}]
+    },
+    {
+      "id": "d15", "split": "dev", "group": "text", "answerable": true,
+      "question": "SVM chọn biên quyết định theo nguyên tắc nào và hinge loss xử lý điểm phân loại sai ra sao?",
+      "expected_answer": "SVM tối đa hóa margin; với dữ liệu không tách tuyến tính, điểm nằm sai phía bị phạt tỷ lệ với khoảng cách tới biên.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 117, "evidence": "The penalty for a misclassified point is proportional to the distance from the decision boundary"}]
+    },
+    {"id": "d16", "split": "dev", "group": "unanswerable", "answerable": false, "question": "Tác giả khuyến nghị learning rate chính xác nào cho mô hình Transformer?", "expected_behavior": "search_and_abstain", "absence_reason": "Phần tài liệu được lập chỉ mục không trình bày Transformer hay learning rate của nó."},
+    {"id": "d17", "split": "dev", "group": "unanswerable", "answerable": false, "question": "Bảng nào cho biết doanh thu năm 2025 của MegaTelCo?", "expected_behavior": "search_and_abstain", "absence_reason": "Ví dụ MegaTelCo không cung cấp doanh thu năm 2025."},
+    {"id": "d18", "split": "dev", "group": "unanswerable", "answerable": false, "question": "Hình nào báo cáo độ chính xác của GPT-6 trên bộ Mushroom?", "expected_behavior": "search_and_abstain", "absence_reason": "Tài liệu năm 2013 không có GPT-6 hoặc kết quả này."},
+
+    {
+      "id": "t01", "split": "test", "group": "table", "answerable": true,
+      "question": "Trong Bảng 3-2, biến mục tiêu LEAVE biểu thị điều gì?",
+      "expected_answer": "Khách hàng ở lại hay rời đi/churn.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 98, "evidence": "LEAVE is the target asking whether the customer stayed or left (churned)", "region": {"label": "Table 3-2"}}]
+    },
+    {
+      "id": "t02", "split": "test", "group": "table", "answerable": true,
+      "question": "Bảng 4-1 đổi xác suất 0.9 thành odds nào?",
+      "expected_answer": "90:10, tức 9.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 121, "evidence": "0.9 -> 90:10 or 9", "region": {"label": "Table 4-1"}}]
+    },
+    {
+      "id": "t03", "split": "test", "group": "table", "answerable": true,
+      "question": "Theo Bảng 4-2, xác suất 0.01 có odds và log-odds bằng bao nhiêu?",
+      "expected_answer": "Odds 0.0101 (1:99) và log-odds -4.6.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 122, "evidence": "0.01, 0.0101, -4.6", "region": {"label": "Table 4-2"}}]
+    },
+    {
+      "id": "t04", "split": "test", "group": "table", "answerable": true,
+      "question": "Bảng 4-3 cho công thức COMPACTNESS là gì?",
+      "expected_answer": "Bình phương chu vi chia diện tích, rồi trừ 1.0.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 128, "evidence": "COMPACTNESS is perimeter squared divided by area minus 1.0", "region": {"label": "Table 4-3"}}]
+    },
+    {
+      "id": "t05", "split": "test", "group": "table", "answerable": true,
+      "question": "Trong Bảng 4-4, thuộc tính có trọng số dương lớn nhất là gì và bằng bao nhiêu?",
+      "expected_answer": "SMOOTHNESS_worst, trọng số 22.3.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 128, "evidence": "SMOOTHNESS_worst 22.3", "region": {"label": "Table 4-4"}}]
+    },
+    {
+      "id": "t06", "split": "test", "group": "table", "answerable": true,
+      "question": "Bảng 3-1 liệt kê các giá trị nào cho VEIL-COLOR?",
+      "expected_answer": "brown, orange, white và yellow.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 82, "evidence": "VEIL-COLOR: brown, orange, white, yellow", "region": {"label": "Table 3-1"}}]
+    },
+    {
+      "id": "t07", "split": "test", "group": "image", "answerable": true,
+      "question": "Ở pha sử dụng trong Hình 2-1, mô hình dự đoán lớp nào với xác suất bao nhiêu?",
+      "expected_answer": "Lớp accepted với xác suất 0.88.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 50, "evidence": "outputs class accepted with probability 0.88", "region": {"label": "Figure 2-1"}}]
+    },
+    {
+      "id": "t08", "split": "test", "group": "image", "answerable": true,
+      "question": "Hình 2-2 gồm sáu bước CRISP-DM nào, và chúng tạo thành kiểu quy trình gì?",
+      "expected_answer": "Business understanding, data understanding, data preparation, modeling, evaluation, deployment; đó là chu trình lặp.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 51, "evidence": "business understanding, data understanding, data preparation, modeling, evaluation, and deployment arranged as an iterative cycle", "region": {"label": "Figure 2-2"}}]
+    },
+    {
+      "id": "t09", "split": "test", "group": "image", "answerable": true,
+      "question": "Hình 3-1 dùng các thành phần nào để minh họa một bài toán phân loại có giám sát?",
+      "expected_answer": "Các mẫu huấn luyện có nhãn lớp cùng các thuộc tính dự báo; nhãn là mục tiêu cần dự đoán.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 69, "evidence": "Supervised classification terminology", "region": {"label": "Figure 3-1"}}]
+    },
+    {
+      "id": "t10", "split": "test", "group": "image", "answerable": true,
+      "question": "Cây phân loại ở Hình 3-14 được tạo từ ba phép phân chia liên tiếp nào?",
+      "expected_answer": "body-shape, head-shape và body-color.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 92, "evidence": "successive body-shape, head-shape and body-color partitions", "region": {"label": "Figure 3-14"}}]
+    },
+    {
+      "id": "t11", "split": "test", "group": "image", "answerable": true,
+      "question": "Hình 4-11 là loại ảnh gì, và nhãn benign/malignant được xác định bởi ai?",
+      "expected_answer": "Đó là ảnh nhân tế bào; nhãn là chẩn đoán của chuyên gia.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 127, "evidence": "Sample cell-nuclei image", "region": {"label": "Figure 4-11"}}]
+    },
+    {
+      "id": "t12", "split": "test", "group": "chart", "answerable": true,
+      "question": "Đường entropy trong Hình 3-3 đạt cực đại và bằng 0 tại những xác suất nào?",
+      "expected_answer": "Cực đại 1 tại p=0.5; bằng 0 tại p=0 và p=1.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 76, "evidence": "Entropy is zero at p(+)=0 and 1, reaches its maximum 1.0 at p(+)=0.5", "region": {"label": "Figure 3-3"}}]
+    },
+    {
+      "id": "t13", "split": "test", "group": "chart", "answerable": true,
+      "question": "Hình 3-6 biểu diễn entropy mặc định của bộ Mushroom là bao nhiêu?",
+      "expected_answer": "Khoảng 0.96.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 83, "evidence": "The entropy is 0.96", "region": {"label": "Figure 3-6"}}]
+    },
+    {
+      "id": "t14", "split": "test", "group": "chart", "answerable": true,
+      "question": "Theo Hình 3-9, ODOR làm entropy giảm còn bao nhiêu và information gain xấp xỉ bao nhiêu?",
+      "expected_answer": "Entropy còn khoảng 0.1 và information gain khoảng 0.86.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 86, "evidence": "ODOR reduces total entropy to about 0.1, for information gain about 0.86", "region": {"label": "Figure 3-9"}}]
+    },
+    {
+      "id": "t15", "split": "test", "group": "chart", "answerable": true,
+      "question": "Ba thuộc tính đứng đầu Hình 3-17 theo information gain là gì và có giá trị bao nhiêu?",
+      "expected_answer": "HOUSE 0.0461, OVERAGE 0.0436 và LONG_CALLS_PER_MONTH 0.0350.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 100, "evidence": "HOUSE 0.0461, OVERAGE 0.0436, LONG_CALLS_PER_MONTH 0.0350", "region": {"label": "Figure 3-17"}}]
+    },
+    {
+      "id": "t16", "split": "test", "group": "chart", "answerable": true,
+      "question": "Hình 4-12 thêm đặc trưng nào để tạo biên phi tuyến, và điểm ngôi sao nằm gần tọa độ nào?",
+      "expected_answer": "Thêm Sepal width bình phương; điểm sao gần (4, 0.7).",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 130, "evidence": "added nonlinear feature Sepal width squared", "region": {"label": "Figure 4-12"}}]
+    },
+    {
+      "id": "t17", "split": "test", "group": "multi_hop", "answerable": true, "requires_all_gold": true,
+      "question": "So sánh hai phép chia Balance và Residence: information gain lần lượt là bao nhiêu và chênh nhau bao nhiêu?",
+      "expected_answer": "Balance là 0.37, Residence là 0.13; chênh lệch 0.24.",
+      "gold": [
+        {"source_id": "dsfb_2013_excerpt", "page": 78, "evidence": "≈ 0.37"},
+        {"source_id": "dsfb_2013_excerpt", "page": 79, "evidence": "IG ≈ 0.13"}
+      ]
+    },
+    {
+      "id": "t18", "split": "test", "group": "multi_hop", "answerable": true, "requires_all_gold": true,
+      "question": "Ví dụ Iris dùng hai loài và hai đặc trưng nào, và ở Hình 4-7 mô hình nào phân loại sai điểm sao (3,1)?",
+      "expected_answer": "Iris Setosa và Iris Versicolor; Sepal width và Petal width; SVM phân loại sai điểm sao.",
+      "gold": [
+        {"source_id": "dsfb_2013_excerpt", "page": 112, "evidence": "Iris Setosa and Iris Versicolor"},
+        {"source_id": "dsfb_2013_excerpt", "page": 113, "evidence": "SVM boundary is between clumps but misclassifies the starred point at (3,1)", "region": {"label": "Figure 4-7"}}
+      ]
+    },
+    {
+      "id": "t19", "split": "test", "group": "multi_hop", "answerable": true, "requires_all_gold": true,
+      "question": "Bộ Wisconsin có bao nhiêu mẫu, logistic regression và cây đạt độ chính xác nào, và chênh lệch đó tương ứng bao nhiêu lỗi?",
+      "expected_answer": "569 mẫu; logistic regression 98.9%, cây 99.1%; chênh lệch chỉ một lỗi.",
+      "gold": [
+        {"source_id": "dsfb_2013_excerpt", "page": 128, "evidence": "There are 357 benign images and 212 malignant images"},
+        {"source_id": "dsfb_2013_excerpt", "page": 129, "evidence": "This difference is caused by only a single additional error out of the 569 examples"}
+      ]
+    },
+    {
+      "id": "t20", "split": "test", "group": "multi_hop", "answerable": true, "requires_all_gold": true,
+      "question": "Với xác suất 0.9, Bảng 4-1 và 4-2 lần lượt cho odds và log-odds nào?",
+      "expected_answer": "Odds là 9 (90:10), log-odds là 2.19.",
+      "gold": [
+        {"source_id": "dsfb_2013_excerpt", "page": 121, "evidence": "0.9 -> 90:10 or 9"},
+        {"source_id": "dsfb_2013_excerpt", "page": 122, "evidence": "0.9, 9, 2.19"}
+      ]
+    },
+    {
+      "id": "t21", "split": "test", "group": "text", "answerable": true,
+      "question": "Điểm khác biệt cốt lõi giữa bài toán supervised và unsupervised là gì, và supervised còn cần điều kiện dữ liệu nào?",
+      "expected_answer": "Supervised có mục tiêu/nhãn cụ thể còn unsupervised không; supervised phải có dữ liệu lịch sử về biến mục tiêu.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 48, "evidence": "there must be data on the target"}]
+    },
+    {
+      "id": "t22", "split": "test", "group": "text", "answerable": true,
+      "question": "Data leakage là gì? Hãy nêu một ví dụ trong tài liệu.",
+      "expected_answer": "Là biến lịch sử tiết lộ mục tiêu nhưng không có tại thời điểm ra quyết định; ví dụ tổng số trang đã xem chỉ biết sau khi phiên kết thúc.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 54, "evidence": "information that appears in historical data but is not actually available when the decision has to be made"}]
+    },
+    {
+      "id": "t23", "split": "test", "group": "text", "answerable": true,
+      "question": "Vì sao phải đánh giá mô hình trước khi triển khai, và độ chính xác trên 99% vẫn có thể thất bại kinh doanh như thế nào?",
+      "expected_answer": "Cần xác minh mẫu hình là đáng tin cậy và phù hợp mục tiêu kinh doanh; nếu cảnh báo sai quá tốn kém thì ngay cả độ chính xác trên 99% vẫn không hữu ích.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 55, "evidence": "far easier, cheaper, quicker, and safer to test a model first"}]
+    },
+    {
+      "id": "t24", "split": "test", "group": "text", "answerable": true,
+      "question": "Tài liệu nêu hai lý do thực tế nào khiến phải triển khai mô hình thay vì để con người tự quyết định từng trường hợp?",
+      "expected_answer": "Thế giới thay đổi quá nhanh và số lượng quyết định/nhiệm vụ quá lớn để con người xử lý thủ công; quy tắc giấy dán cạnh máy in là ví dụ triển khai phi kỹ thuật.",
+      "gold": [{"source_id": "dsfb_2013_excerpt", "page": 57, "evidence": "the world may change faster"}]
+    },
+    {"id": "t25", "split": "test", "group": "unanswerable", "answerable": false, "question": "Tài liệu cho biết giá cổ phiếu MegaTelCo ngày 14/11/2026 là bao nhiêu?", "expected_behavior": "search_and_abstain", "absence_reason": "Tài liệu không có dữ liệu thị trường thời gian thực hoặc giá cổ phiếu năm 2026."},
+    {"id": "t26", "split": "test", "group": "unanswerable", "answerable": false, "question": "Bảng nào liệt kê cấu hình GPU dùng để huấn luyện mô hình churn?", "expected_behavior": "search_and_abstain", "absence_reason": "Tài liệu không nêu cấu hình GPU cho ví dụ churn."},
+    {"id": "t27", "split": "test", "group": "unanswerable", "answerable": false, "question": "Tác giả báo cáo BLEU score bao nhiêu cho hệ thống dịch máy?", "expected_behavior": "search_and_abstain", "absence_reason": "Phần tài liệu không đánh giá hệ thống dịch máy hoặc BLEU."},
+    {"id": "t28", "split": "test", "group": "unanswerable", "answerable": false, "question": "Hình nào mô tả kiến trúc ResNet-152 và số lớp chính xác của nó?", "expected_behavior": "search_and_abstain", "absence_reason": "Tài liệu không trình bày ResNet-152."},
+    {"id": "t29", "split": "test", "group": "unanswerable", "answerable": false, "question": "Tỷ giá USD/VND được dùng trong phân tích chi phí là bao nhiêu?", "expected_behavior": "search_and_abstain", "absence_reason": "Không có tỷ giá USD/VND trong phần tài liệu được lập chỉ mục."},
+    {"id": "t30", "split": "test", "group": "unanswerable", "answerable": false, "question": "Tài liệu khẳng định mô hình nào chiến thắng cuộc thi Kaggle năm 2024?", "expected_behavior": "search_and_abstain", "absence_reason": "Tài liệu xuất bản năm 2013 và không có kết quả Kaggle năm 2024."}
+  ]
+}

@@ -8,4 +8,18 @@ __pycache__/
 
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
-starter/results/
+starter/results/*
+!starter/results/retrieval-dev-b3000/
+!starter/results/retrieval-dev-b3000/**
+!starter/results/retrieval-test-final/
+!starter/results/retrieval-test-final/**
+!starter/results/agent-dev/
+!starter/results/agent-dev/**
+!starter/results/agent-test-final/
+!starter/results/agent-test-final/**
+
+# Copyrighted advanced source/extracted full text stays local.
+Data Science for Business_1.pdf
+advanced/data/
+advanced/results/
+tmp/pdfs/

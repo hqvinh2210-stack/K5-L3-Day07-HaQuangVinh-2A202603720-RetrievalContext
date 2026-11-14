@@ -1,0 +1,228 @@
+[
+  {
+    "query_id": "t01",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng ý nghĩa biến LEAVE; citation p98 chứa đúng hàng Table 3-2."
+  },
+  {
+    "query_id": "t02",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng odds 90:10 = 9 và trích dẫn Table 4-1 p121."
+  },
+  {
+    "query_id": "t03",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng odds 0.0101/1:99 và log-odds -4.6, citation Table 4-2."
+  },
+  {
+    "query_id": "t04",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng công thức perimeter squared / area - 1.0, citation p128/Table 4-3."
+  },
+  {
+    "query_id": "t05",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng SMOOTHNESS_worst 22.3 và citation vùng Table 4-4."
+  },
+  {
+    "query_id": "t06",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Liệt kê đủ brown, orange, white, yellow; citation Table 3-1 p82."
+  },
+  {
+    "query_id": "t07",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng accepted với xác suất 0.88 và citation Figure 2-1."
+  },
+  {
+    "query_id": "t08",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đủ sáu bước CRISP-DM và xác định đúng chu trình lặp, citation Figure 2-2."
+  },
+  {
+    "query_id": "t09",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Giải thích đúng mẫu có nhãn, predictor và target; citation p69/Figure 3-1."
+  },
+  {
+    "query_id": "t10",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng ba phép chia body-shape, head-shape, body-color; citation Figure 3-14."
+  },
+  {
+    "query_id": "t11",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng ảnh nhân tế bào và nhãn do chuyên gia chẩn đoán; citation Figure 4-11."
+  },
+  {
+    "query_id": "t12",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng entropy cực đại 1 tại 0.5 và bằng 0 tại 0/1; citation Figure 3-3."
+  },
+  {
+    "query_id": "t13",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng entropy 0.96; citation Figure 3-6."
+  },
+  {
+    "query_id": "t14",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng entropy 0.1 và information gain 0.86, có phép tính và citation Figure 3-9."
+  },
+  {
+    "query_id": "t15",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng ba thuộc tính đầu cùng ba giá trị; citation Figure 3-17 trực tiếp hỗ trợ."
+  },
+  {
+    "query_id": "t16",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đúng Sepal width squared và điểm sao gần (4,0.7); citation Figure 4-12."
+  },
+  {
+    "query_id": "t17",
+    "passed": true,
+    "evidence_checks": [
+      true,
+      true
+    ],
+    "reason": "Hai citation p78/p79 hỗ trợ 0.37 và 0.13; phép trừ 0.24 đúng."
+  },
+  {
+    "query_id": "t18",
+    "passed": true,
+    "evidence_checks": [
+      true,
+      true
+    ],
+    "reason": "Hai nguồn p112/p113 hỗ trợ đủ loài, đặc trưng và SVM sai điểm sao (3,1)."
+  },
+  {
+    "query_id": "t19",
+    "passed": true,
+    "evidence_checks": [
+      true,
+      true
+    ],
+    "reason": "Đúng 569 mẫu, 98.9%, 99.1% và chênh một lỗi; citation p128/p129 hỗ trợ phép đối chiếu."
+  },
+  {
+    "query_id": "t20",
+    "passed": true,
+    "evidence_checks": [
+      true,
+      true
+    ],
+    "reason": "Hai citation độc lập Table 4-1 p121 và Table 4-2 p122 hỗ trợ odds 9 và log-odds 2.19."
+  },
+  {
+    "query_id": "t21",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Phân biệt đúng supervised/unsupervised và điều kiện phải có dữ liệu target; citation p48."
+  },
+  {
+    "query_id": "t22",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Định nghĩa leakage đúng và nêu đúng ví dụ tổng số trang chỉ biết sau phiên; citation p54."
+  },
+  {
+    "query_id": "t23",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Đủ lý do đánh giá trước triển khai và trường hợp >99% vẫn thất bại vì false alarms; citation p55/p56."
+  },
+  {
+    "query_id": "t24",
+    "passed": true,
+    "evidence_checks": [
+      true
+    ],
+    "reason": "Nêu đúng hai lý do được hỏi: thế giới đổi nhanh và quá nhiều tác vụ để quản lý thủ công; citation p57."
+  },
+  {
+    "query_id": "t25",
+    "passed": true,
+    "reason": "Agent đã tìm rồi từ chối, không suy đoán giá cổ phiếu năm 2026."
+  },
+  {
+    "query_id": "t26",
+    "passed": true,
+    "reason": "Agent đã tìm rồi từ chối, không bịa cấu hình GPU."
+  },
+  {
+    "query_id": "t27",
+    "passed": true,
+    "reason": "Agent đã tìm đủ lượt rồi từ chối, không bịa BLEU score."
+  },
+  {
+    "query_id": "t28",
+    "passed": true,
+    "reason": "Agent đã tìm rồi từ chối, không bịa hình ResNet-152."
+  },
+  {
+    "query_id": "t29",
+    "passed": true,
+    "reason": "Agent đã tìm rồi từ chối, không bịa tỷ giá USD/VND."
+  },
+  {
+    "query_id": "t30",
+    "passed": true,
+    "reason": "Agent đã tìm rồi từ chối, không bịa kết quả Kaggle 2024."
+  }
+]

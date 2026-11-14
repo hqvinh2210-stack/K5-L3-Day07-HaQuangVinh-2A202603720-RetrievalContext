@@ -1,0 +1,33 @@
+{
+  "locked_at": "2026-11-14T00:00:00+07:00",
+  "selection_split": "dev",
+  "test_seen_before_lock": false,
+  "document_strategy": "ADVANCED_DSFB",
+  "retriever": "hybrid_lexical2",
+  "retriever_description": "Reciprocal Rank Fusion with lexical weight 2.0 and dense weight 1.0",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimensions": 384,
+  "top_k_per_search": 6,
+  "context_budget_chars": 14000,
+  "max_searches": 4,
+  "provider": "anthropic",
+  "model": "claude-haiku-5-5",
+  "max_output_tokens": 2048,
+  "query_policy": "Generate short English search terms for the English source; preserve figure/table/variable names and numbers.",
+  "multi_hop_policy": "Require evidence for every clause from at least two independent pages or regions.",
+  "answer_policy": "Answer every requested clause in the user's language with context-valid chunk citations; otherwise abstain.",
+  "dev_observations": {
+    "retrieval_single_query": {
+      "hybrid_lexical2_hit_at_3": "10/15",
+      "hybrid_lexical2_context_evidence_top10": "14/15",
+      "note": "Single-query retrieval undercounts agentic multi-search coverage for multi-hop questions."
+    },
+    "agent": {
+      "cases": 18,
+      "answered": 15,
+      "abstained": 3,
+      "errors": 0,
+      "model_calls": 40
+    }
+  }
+}

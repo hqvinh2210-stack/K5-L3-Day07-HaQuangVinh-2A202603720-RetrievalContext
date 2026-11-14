@@ -1,0 +1,37 @@
+{
+  "document_id": "dsfb_2013_excerpt",
+  "source": "Data Science for Business_1.pdf",
+  "title": "Data Science for Business",
+  "authors": [
+    "Foster Provost",
+    "Tom Fawcett"
+  ],
+  "copyright_year": 2013,
+  "physical_pages": 130,
+  "text_chars": 269721,
+  "chunks": 311,
+  "text_chunks": 277,
+  "table_chunks": 13,
+  "visual_chunks": 21,
+  "detected_tables": 7,
+  "detected_image_objects": 62,
+  "pages_below_50_text_chars": [
+    1,
+    2,
+    6,
+    16,
+    42,
+    104
+  ],
+  "rights_note": "Copyrighted book; source PDF and extracted full-text chunks are for local coursework only and should not be redistributed. Submit source metadata, code, benchmark short excerpts, and reproduction instructions instead.",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimensions": 384,
+  "vector_strategy": "ADVANCED_DSFB",
+  "index": {
+    "strategy": "ADVANCED_DSFB",
+    "rows": 311,
+    "seconds": 22.462009699986083,
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensions": 384
+  }
+}

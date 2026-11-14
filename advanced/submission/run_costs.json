@@ -1,0 +1,24 @@
+{
+  "pricing": {
+    "source": "Anthropic Claude Haiku 5.5 announcement, checked 2026-11-14",
+    "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+    "prompt_tier": "each prompt below 100k tokens",
+    "input_usd_per_million": 0.1,
+    "output_usd_per_million": 0.5
+  },
+  "test": {
+    "model_calls": 70,
+    "input_tokens": 165739,
+    "output_tokens": 21445,
+    "thinking_tokens": 12402,
+    "estimated_usd": 0.0272964
+  },
+  "dev_main_run": {
+    "model_calls": 40,
+    "input_tokens": 77904,
+    "output_tokens": 14516,
+    "thinking_tokens": 7330,
+    "estimated_usd": 0.0150484
+  },
+  "billing_note": "Estimate only; actual billed amount must be checked in the Anthropic Console."
+}

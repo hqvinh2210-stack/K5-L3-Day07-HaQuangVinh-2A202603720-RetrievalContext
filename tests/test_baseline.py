@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'starter'))
 from baseline import TfidfIndex, evaluate, hit, pack_context, validate
 from convert_day6 import convert_chunk, convert_question
+from day6_connection import ALLOWED_FILTERS, DEFAULT_DIMENSIONS, DEFAULT_STRATEGY
 
 
 def chunk(id, text, page=1):
@@ -58,6 +59,11 @@ class BaselineTests(unittest.TestCase):
         self.assertEqual(q['filter'], {'year': 2025})
         self.assertEqual(c['id'], 'c1')
 
+    def test_day6_connection_contract_constants(self):
+        self.assertEqual(DEFAULT_STRATEGY, 'B')
+        self.assertEqual(DEFAULT_DIMENSIONS, 384)
+        self.assertEqual(ALLOWED_FILTERS, {'section', 'year', 'document_type', 'language'})
+
     def test_cli_uses_requested_split_only(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d)
@@ -68,9 +74,9 @@ class BaselineTests(unittest.TestCase):
             subprocess.run([sys.executable, str(ROOT/'starter/baseline.py'), '--chunks', str(root/'chunks.json'),
                             '--questions', str(root/'q.json'), '--split', 'dev', '--output', str(root/'out')],
                            check=True, capture_output=True, text=True)
-            summary = json.loads((root/'out/summary.json').read_text())
+            summary = json.loads((root/'out/summary.json').read_text(encoding='utf-8'))
             self.assertEqual((summary['split'], summary['n'], summary['hit1']), ('dev', 1, 1))
-            self.assertEqual(len(json.loads((root/'out/traces.json').read_text())), 1)
+            self.assertEqual(len(json.loads((root/'out/traces.json').read_text(encoding='utf-8'))), 1)
 
 
 if __name__ == '__main__': unittest.main()

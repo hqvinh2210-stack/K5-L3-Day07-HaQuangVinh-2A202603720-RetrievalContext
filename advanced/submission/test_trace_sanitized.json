@@ -1,0 +1,4667 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Trong Bảng 3-2, biến mục tiêu LEAVE biểu thị điều gì?",
+    "status": "answered",
+    "answer": "Trong Bảng 3-2, biến mục tiêu LEAVE biểu thị việc khách hàng ở lại hay rời bỏ (churn), tức là khách hàng có rời công ty sau khi hết hạn hợp đồng hay không. [dsfb_2013_excerpt:p098:text:000]",
+    "citations": [
+      "dsfb_2013_excerpt:p098:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Table 3-2 LEAVE target variable",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p098:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 98,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.06,
+              373.19,
+              324.35,
+              387.59
+            ],
+            "score": 0.04838709677419355,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p072:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 72,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046634615384615385,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p080:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 80,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.043697478991596636,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 10,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p072:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 72,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p098:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 98,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p098:table:00",
+          "dsfb_2013_excerpt:p072:text:002",
+          "dsfb_2013_excerpt:p080:text:002",
+          "dsfb_2013_excerpt:p072:text:000",
+          "dsfb_2013_excerpt:p098:text:000"
+        ],
+        "context_chars": 4029
+      }
+    ],
+    "elapsed_ms": 15814.890599998762,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Bảng 4-1 đổi xác suất 0.9 thành odds nào?",
+    "status": "answered",
+    "answer": "Theo Bảng 4-1, xác suất 0.9 tương ứng với odds 90:10, tức là 9 [dsfb_2013_excerpt:p121:table:4-1][dsfb_2013_excerpt:p121:text:001].",
+    "citations": [
+      "dsfb_2013_excerpt:p121:table:4-1",
+      "dsfb_2013_excerpt:p121:text:001"
+    ],
+    "searches": [
+      {
+        "query": "Table 4-1 odds probability 0.9",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p122:table:4-2",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "table",
+            "label": "Table 4-2",
+            "bbox": [
+              72.0,
+              138.0,
+              432.0,
+              290.0
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p122:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04764267990074442,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p122:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              152.2,
+              204.37,
+              166.6
+            ],
+            "score": 0.047371031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:table:4-1",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "table",
+            "label": "Table 4-1",
+            "bbox": [
+              72.0,
+              480.0,
+              432.0,
+              610.0
+            ],
+            "score": 0.04712301587301587,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              492.16,
+              177.92,
+              506.56
+            ],
+            "score": 0.04643206256109482,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p122:table:4-2",
+          "dsfb_2013_excerpt:p122:text:000",
+          "dsfb_2013_excerpt:p122:table:00",
+          "dsfb_2013_excerpt:p121:table:4-1",
+          "dsfb_2013_excerpt:p121:table:00",
+          "dsfb_2013_excerpt:p121:text:001"
+        ],
+        "context_chars": 3672
+      }
+    ],
+    "elapsed_ms": 3883.751700006542,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Theo Bảng 4-2, xác suất 0.01 có odds và log-odds bằng bao nhiêu?",
+    "status": "answered",
+    "answer": "Theo Bảng 4-2, với xác suất 0.01: odds là 1:99 hay 0.0101, và log-odds là –4.6 [dsfb_2013_excerpt:p122:table:4-2].",
+    "citations": [
+      "dsfb_2013_excerpt:p122:table:4-2"
+    ],
+    "searches": [
+      {
+        "query": "Table 4-2 odds log-odds probability 0.01",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p122:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              152.2,
+              204.37,
+              166.6
+            ],
+            "score": 0.04891591750396616,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p122:table:4-2",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "table",
+            "label": "Table 4-2",
+            "bbox": [
+              72.0,
+              138.0,
+              432.0,
+              290.0
+            ],
+            "score": 0.04813947436898257,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p122:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04764267990074442,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              492.16,
+              177.92,
+              506.56
+            ],
+            "score": 0.04712301587301587,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:table:4-1",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "table",
+            "label": "Table 4-1",
+            "bbox": [
+              72.0,
+              480.0,
+              432.0,
+              610.0
+            ],
+            "score": 0.04503676470588235,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p124:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 124,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04500226142017187,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 7
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p122:table:00",
+          "dsfb_2013_excerpt:p122:table:4-2",
+          "dsfb_2013_excerpt:p122:text:000",
+          "dsfb_2013_excerpt:p121:table:00",
+          "dsfb_2013_excerpt:p121:table:4-1",
+          "dsfb_2013_excerpt:p124:text:000"
+        ],
+        "context_chars": 3443
+      }
+    ],
+    "elapsed_ms": 4594.016699993517,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Bảng 4-3 cho công thức COMPACTNESS là gì?",
+    "status": "answered",
+    "answer": "Theo Bảng 4-3 (bộ dữ liệu Wisconsin Breast Cancer), COMPACTNESS được tính theo công thức: perimeter2/area – 1.0, tức là bình phương chu vi chia cho diện tích, trừ 1.0 [dsfb_2013_excerpt:p128:text:000] [dsfb_2013_excerpt:p128:table:4-3].",
+    "citations": [
+      "dsfb_2013_excerpt:p128:text:000",
+      "dsfb_2013_excerpt:p128:table:4-3"
+    ],
+    "searches": [
+      {
+        "query": "Table 4-3 COMPACTNESS formula",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04841188524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p108:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 108,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04838709677419355,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p098:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 98,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.06,
+              373.19,
+              324.35,
+              387.59
+            ],
+            "score": 0.04669647292598113,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p124:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 124,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04640151515151515,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:table:4-3",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "table",
+            "label": "Table 4-3",
+            "bbox": [
+              72.0,
+              55.0,
+              432.0,
+              346.0
+            ],
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p098:table:00",
+          "dsfb_2013_excerpt:p124:text:000",
+          "dsfb_2013_excerpt:p128:text:000",
+          "dsfb_2013_excerpt:p128:table:4-3"
+        ],
+        "context_chars": 4273
+      }
+    ],
+    "elapsed_ms": 4473.418699999456,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Trong Bảng 4-4, thuộc tính có trọng số dương lớn nhất là gì và bằng bao nhiêu?",
+    "status": "answered",
+    "answer": "Trong Bảng 4-4, thuộc tính có trọng số dương lớn nhất là SMOOTHNESS_worst, với trọng số 22.3 [dsfb_2013_excerpt:p128:table:4-4].",
+    "citations": [
+      "dsfb_2013_excerpt:p128:table:4-4"
+    ],
+    "searches": [
+      {
+        "query": "Table 4-4 attribute weights",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p081:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 81,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              430.16,
+              432.0,
+              444.56
+            ],
+            "score": 0.046176046176046176,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:table:4-4",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "table",
+            "label": "Table 4-4",
+            "bbox": [
+              72.0,
+              352.0,
+              432.0,
+              614.0
+            ],
+            "score": 0.045535714285714284,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 10,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:table:01",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              366.49,
+              230.11,
+              380.89
+            ],
+            "score": 0.04537894986932763,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p082:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 82,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              54.0,
+              432.0,
+              68.4
+            ],
+            "score": 0.045235361653272105,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p111:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 111,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04349680170575693,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 7,
+              "tfidf": 10
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p108:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 108,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p081:table:00",
+          "dsfb_2013_excerpt:p128:table:4-4",
+          "dsfb_2013_excerpt:p128:table:01",
+          "dsfb_2013_excerpt:p082:table:00",
+          "dsfb_2013_excerpt:p111:text:001",
+          "dsfb_2013_excerpt:p108:text:000"
+        ],
+        "context_chars": 2198
+      }
+    ],
+    "elapsed_ms": 3999.692099998356,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Bảng 3-1 liệt kê các giá trị nào cho VEIL-COLOR?",
+    "status": "answered",
+    "answer": "Theo Bảng 3-1 (trang 82), VEIL-COLOR có các giá trị: brown, orange, white, yellow [dsfb_2013_excerpt:p082:table:3-1]. Danh sách này cũng khớp với mục VEIL-COLOR trong bảng thuộc tính [dsfb_2013_excerpt:p082:text:000].",
+    "citations": [
+      "dsfb_2013_excerpt:p082:table:3-1",
+      "dsfb_2013_excerpt:p082:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Table 3-1 VEIL-COLOR",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p082:table:3-1",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 82,
+            "content_type": "table",
+            "label": "Table 3-1",
+            "bbox": [
+              72.0,
+              54.0,
+              432.0,
+              486.0
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p082:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 82,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04713064713064713,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:figure:3-14",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "diagram",
+            "label": "Figure 3-14",
+            "bbox": [
+              86.9,
+              67.2,
+              417.1,
+              560.9
+            ],
+            "score": 0.046875,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p098:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 98,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.06,
+              373.19,
+              324.35,
+              387.59
+            ],
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p081:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 81,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p082:table:3-1",
+          "dsfb_2013_excerpt:p082:text:000",
+          "dsfb_2013_excerpt:p092:figure:3-14",
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p098:table:00",
+          "dsfb_2013_excerpt:p081:text:001"
+        ],
+        "context_chars": 3882
+      }
+    ],
+    "elapsed_ms": 5272.256999989622,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Ở pha sử dụng trong Hình 2-1, mô hình dự đoán lớp nào với xác suất bao nhiêu?",
+    "status": "answered",
+    "answer": "Trong Hình 2-1, ở pha sử dụng (use phase), mô hình áp dụng cho một mục mới có nhãn lớp chưa biết và dự đoán lớp \"accepted\" (được chấp nhận) với xác suất 0.88 [dsfb_2013_excerpt:p050:figure:2-1].",
+    "citations": [
+      "dsfb_2013_excerpt:p050:figure:2-1"
+    ],
+    "searches": [
+      {
+        "query": "Figure 2-1 inference phase predicted class probability",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p121:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.047619047619047616,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p050:figure:2-1",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 50,
+            "content_type": "diagram",
+            "label": "Figure 2-1",
+            "bbox": [
+              116.0,
+              67.2,
+              388.0,
+              271.1
+            ],
+            "score": 0.04727963886909005,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 9,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p125:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 125,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04669647292598113,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p096:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 96,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046153846153846156,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p123:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 123,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04595588235294118,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 8,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p096:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 96,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.044610507246376815,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 9
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p121:text:000",
+          "dsfb_2013_excerpt:p050:figure:2-1",
+          "dsfb_2013_excerpt:p125:text:002",
+          "dsfb_2013_excerpt:p096:text:002",
+          "dsfb_2013_excerpt:p123:text:001",
+          "dsfb_2013_excerpt:p096:text:001"
+        ],
+        "context_chars": 5808
+      }
+    ],
+    "elapsed_ms": 5161.284000001615,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Hình 2-2 gồm sáu bước CRISP-DM nào, và chúng tạo thành kiểu quy trình gì?",
+    "status": "answered",
+    "answer": "Hình 2-2 minh họa quy trình CRISP-DM với sáu bước: hiểu nghiệp vụ (business understanding), hiểu dữ liệu (data understanding), chuẩn bị dữ liệu (data preparation), mô hình hóa (modeling), đánh giá (evaluation) và triển khai (deployment) [dsfb_2013_excerpt:p051:figure:2-2][dsfb_2013_excerpt:p051:text:000]. Các bước này được sắp xếp thành một chu trình lặp (iterative cycle), không phải quy trình tuyến tính một lần; tài liệu nhấn mạnh rằng lặp lại là quy tắc chứ không phải ngoại lệ [dsfb_2013_excerpt:p051:text:000].",
+    "citations": [
+      "dsfb_2013_excerpt:p051:figure:2-2",
+      "dsfb_2013_excerpt:p051:text:000"
+    ],
+    "searches": [
+      {
+        "query": "CRISP-DM Figure 2-2 six phases",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p051:figure:2-2",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 51,
+            "content_type": "diagram",
+            "label": "Figure 2-2",
+            "bbox": [
+              105.0,
+              98.5,
+              399.0,
+              392.4
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p051:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 51,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04838709677419355,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p108:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 108,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04640151515151515,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p038:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 38,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p050:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 50,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p051:figure:2-2",
+          "dsfb_2013_excerpt:p051:text:000",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p038:text:001",
+          "dsfb_2013_excerpt:p050:text:000",
+          "dsfb_2013_excerpt:p100:text:000"
+        ],
+        "context_chars": 5086
+      }
+    ],
+    "elapsed_ms": 5398.366500012344,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t09",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Hình 3-1 dùng các thành phần nào để minh họa một bài toán phân loại có giám sát?",
+    "status": "answered",
+    "answer": "Hình 3-1 minh họa terminology data mining cho một bài toán phân loại có giám sát (supervised classification). Các thành phần gồm: dữ liệu huấn luyện (training data) có các thuộc tính dự báo (predictor attributes) và một thuộc tính mục tiêu (target attribute) đã biết giá trị; mục tiêu là một danh mục (ví dụ có/không) nên đây là bài toán phân loại chứ không phải hồi quy; và một mô hình dự báo (predictive model) được học để ước lượng giá trị mục tiêu chưa biết cho các ví dụ mới [dsfb_2013_excerpt:p069:text:000] [dsfb_2013_excerpt:p069:figure:3-1].",
+    "citations": [
+      "dsfb_2013_excerpt:p069:text:000",
+      "dsfb_2013_excerpt:p069:figure:3-1"
+    ],
+    "searches": [
+      {
+        "query": "Figure 3-1 supervised classification components",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04788306451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p069:figure:3-1",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 69,
+            "content_type": "diagram",
+            "label": "Figure 3-1",
+            "bbox": [
+              125.1,
+              67.2,
+              378.9,
+              269.8
+            ],
+            "score": 0.04787506400409626,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:figure:3-14",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "diagram",
+            "label": "Figure 3-14",
+            "bbox": [
+              86.9,
+              67.2,
+              417.1,
+              560.9
+            ],
+            "score": 0.04712301587301587,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p108:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 108,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04526198439241918,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 9,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p069:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 69,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.044563279857397504,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 8
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p092:text:000",
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p069:figure:3-1",
+          "dsfb_2013_excerpt:p092:figure:3-14",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p069:text:000"
+        ],
+        "context_chars": 3137
+      }
+    ],
+    "elapsed_ms": 4568.330199996126,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t10",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Cây phân loại ở Hình 3-14 được tạo từ ba phép phân chia liên tiếp nào?",
+    "status": "answered",
+    "answer": "Cây ở Hình 3-14 được tạo từ ba phép phân chia liên tiếp, theo thứ tự: hình dạng thân (body-shape), hình dạng đầu (head-shape) và màu thân (body-color), tương ứng với Hình 3-11 đến 3-13 [dsfb_2013_excerpt:p092:figure:3-14] [dsfb_2013_excerpt:p092:text:000].",
+    "citations": [
+      "dsfb_2013_excerpt:p092:figure:3-14",
+      "dsfb_2013_excerpt:p092:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Figure 3-14 classification tree three successive splits",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:figure:3-14",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "diagram",
+            "label": "Figure 3-14",
+            "bbox": [
+              86.9,
+              67.2,
+              417.1,
+              560.9
+            ],
+            "score": 0.04838709677419355,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p088:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 88,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.045008912655971484,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 8,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p094:figure:3-15",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 94,
+            "content_type": "diagram",
+            "label": "Figure 3-15",
+            "bbox": [
+              79.2,
+              242.6,
+              424.8,
+              524.8
+            ],
+            "score": 0.0443701226309922,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p087:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 87,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.044136460554371,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 10,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04390451832907076,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 9,
+              "tfidf": 8
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p092:text:000",
+          "dsfb_2013_excerpt:p092:figure:3-14",
+          "dsfb_2013_excerpt:p088:text:000",
+          "dsfb_2013_excerpt:p094:figure:3-15",
+          "dsfb_2013_excerpt:p087:text:000",
+          "dsfb_2013_excerpt:p101:text:000"
+        ],
+        "context_chars": 4759
+      }
+    ],
+    "elapsed_ms": 4038.8089999905787,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t11",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Hình 4-11 là loại ảnh gì, và nhãn benign/malignant được xác định bởi ai?",
+    "status": "answered",
+    "answer": "Hình 4-11 là ảnh mẫu cell-nuclei (nhân tế bào) từ đó tập dữ liệu Wisconsin Breast Cancer được tạo ra, do Nick Street và Bill Wolberg cung cấp [dsfb_2013_excerpt:p127:figure:4-11]. Các ảnh được gán nhãn benign (lành tính) hoặc malignant (ác tính) bởi chẩn đoán của chuyên gia (expert diagnosis) [dsfb_2013_excerpt:p127:figure:4-11].",
+    "citations": [
+      "dsfb_2013_excerpt:p127:figure:4-11"
+    ],
+    "searches": [
+      {
+        "query": "Figure 4-11 imaging benign malignant label",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p127:figure:4-11",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 127,
+            "content_type": "image",
+            "label": "Figure 4-11",
+            "bbox": [
+              98.4,
+              274.2,
+              405.6,
+              466.2
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04787506400409626,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:table:4-3",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "table",
+            "label": "Table 4-3",
+            "bbox": [
+              72.0,
+              55.0,
+              432.0,
+              346.0
+            ],
+            "score": 0.04479638009049774,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p129:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 129,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.0432712215320911,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 10,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p108:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 108,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p127:figure:4-11",
+          "dsfb_2013_excerpt:p128:text:000",
+          "dsfb_2013_excerpt:p128:table:4-3",
+          "dsfb_2013_excerpt:p129:text:000",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p092:text:000"
+        ],
+        "context_chars": 4725
+      }
+    ],
+    "elapsed_ms": 3638.597499986645,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t12",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Đường entropy trong Hình 3-3 đạt cực đại và bằng 0 tại những xác suất nào?",
+    "status": "answered",
+    "answer": "Theo Hình 3-3, entropy đạt cực đại bằng 1.0 tại p(+)=0.5, và bằng 0 tại p(+)=0 và p(+)=1 [dsfb_2013_excerpt:p076:figure:3-3].",
+    "citations": [
+      "dsfb_2013_excerpt:p076:figure:3-3"
+    ],
+    "searches": [
+      {
+        "query": "Figure 3-3 binary entropy maximum",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p076:figure:3-3",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 76,
+            "content_type": "chart",
+            "label": "Figure 3-3",
+            "bbox": [
+              79.2,
+              67.2,
+              424.8,
+              334.4
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p076:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 76,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04511453950444133,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p083:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 83,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04479638009049774,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p086:figure:3-9",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 86,
+            "content_type": "chart",
+            "label": "Figure 3-9",
+            "bbox": [
+              101.2,
+              123.6,
+              402.8,
+              372.8
+            ],
+            "score": 0.04458874458874459,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 10,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p078:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 78,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04444444444444444,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 10
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p076:figure:3-3",
+          "dsfb_2013_excerpt:p076:text:000",
+          "dsfb_2013_excerpt:p083:text:000",
+          "dsfb_2013_excerpt:p086:figure:3-9",
+          "dsfb_2013_excerpt:p078:text:000",
+          "dsfb_2013_excerpt:p092:text:000"
+        ],
+        "context_chars": 4114
+      }
+    ],
+    "elapsed_ms": 3502.0538000098895,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t13",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Hình 3-6 biểu diễn entropy mặc định của bộ Mushroom là bao nhiêu?",
+    "status": "answered",
+    "answer": "Hình 3-6 cho thấy entropy mặc định của toàn bộ bộ dữ liệu Mushroom là 0,96 [dsfb_2013_excerpt:p083:figure:3-6]. Đoạn văn cũng xác nhận entropy toàn cục là 0,96 và Hình 3-6 thể hiện vùng tô bóng lớn dưới đường y = 0,96 [dsfb_2013_excerpt:p084:text:000].",
+    "citations": [
+      "dsfb_2013_excerpt:p083:figure:3-6",
+      "dsfb_2013_excerpt:p084:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Figure 3-6 Mushroom dataset default entropy",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p083:figure:3-6",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 83,
+            "content_type": "chart",
+            "label": "Figure 3-6",
+            "bbox": [
+              101.2,
+              192.6,
+              402.8,
+              441.8
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p084:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 84,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.047619047619047616,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p084:figure:3-7",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 84,
+            "content_type": "chart",
+            "label": "Figure 3-7",
+            "bbox": [
+              101.2,
+              57.2,
+              402.8,
+              306.4
+            ],
+            "score": 0.04689826302729529,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p085:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 85,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.045228403437358664,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 7,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p085:figure:3-8",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 85,
+            "content_type": "chart",
+            "label": "Figure 3-8",
+            "bbox": [
+              101.2,
+              57.2,
+              402.8,
+              306.4
+            ],
+            "score": 0.0432712215320911,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 10,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p082:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 82,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p083:figure:3-6",
+          "dsfb_2013_excerpt:p084:text:000",
+          "dsfb_2013_excerpt:p084:figure:3-7",
+          "dsfb_2013_excerpt:p085:text:000",
+          "dsfb_2013_excerpt:p085:figure:3-8",
+          "dsfb_2013_excerpt:p082:text:001"
+        ],
+        "context_chars": 4805
+      }
+    ],
+    "elapsed_ms": 4885.222800003248,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t14",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Theo Hình 3-9, ODOR làm entropy giảm còn bao nhiêu và information gain xấp xỉ bao nhiêu?",
+    "status": "answered",
+    "answer": "Theo Hình 3-9, ODOR làm entropy tổng của tập dữ liệu giảm còn khoảng 0.1, và information gain xấp xỉ 0.86, tức 0.96 − 0.1 = 0.86 [dsfb_2013_excerpt:p086:figure:3-9] [dsfb_2013_excerpt:p085:text:000].",
+    "citations": [
+      "dsfb_2013_excerpt:p086:figure:3-9",
+      "dsfb_2013_excerpt:p085:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Figure 3-9 ODOR entropy information gain",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p086:figure:3-9",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 86,
+            "content_type": "chart",
+            "label": "Figure 3-9",
+            "bbox": [
+              101.2,
+              123.6,
+              402.8,
+              372.8
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p076:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 76,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.047379032258064516,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p082:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 82,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04664224664224664,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p083:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 83,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.045235361653272105,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p085:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 85,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p086:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 86,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p086:figure:3-9",
+          "dsfb_2013_excerpt:p076:text:000",
+          "dsfb_2013_excerpt:p082:text:001",
+          "dsfb_2013_excerpt:p083:text:000",
+          "dsfb_2013_excerpt:p085:text:000",
+          "dsfb_2013_excerpt:p086:text:000"
+        ],
+        "context_chars": 6788
+      }
+    ],
+    "elapsed_ms": 5384.656299997005,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t15",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Ba thuộc tính đứng đầu Hình 3-17 theo information gain là gì và có giá trị bao nhiêu?",
+    "status": "answered",
+    "answer": "Ba thuộc tính đứng đầu Hình 3-17 theo information gain là HOUSE (0,0461), OVERAGE (0,0436) và LONG_CALLS_PER_MONTH (0,0350) [dsfb_2013_excerpt:p100:figure:3-17]. Lưu ý: đoạn văn liệt kê ba biến đầu là house value, leftover minutes và số long calls mỗi tháng [dsfb_2013_excerpt:p099:text:000], nhưng giá trị trong hình cho thấy LEFTOVER đứng thứ tư (0,0136), nên tôi dựa vào các giá trị trong hình.",
+    "citations": [
+      "dsfb_2013_excerpt:p100:figure:3-17",
+      "dsfb_2013_excerpt:p099:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Figure 3-17 information gain attributes",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p099:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 99,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04788306451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p099:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 99,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046176046176046176,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p100:figure:3-17",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "chart",
+            "label": "Figure 3-17",
+            "bbox": [
+              86.6,
+              57.2,
+              417.4,
+              448.2
+            ],
+            "score": 0.04511453950444133,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p080:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 80,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04477611940298507,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 7,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p099:text:000",
+          "dsfb_2013_excerpt:p099:text:001",
+          "dsfb_2013_excerpt:p100:figure:3-17",
+          "dsfb_2013_excerpt:p080:text:002",
+          "dsfb_2013_excerpt:p092:text:000"
+        ],
+        "context_chars": 4400
+      }
+    ],
+    "elapsed_ms": 6498.639999990701,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t16",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Hình 4-12 thêm đặc trưng nào để tạo biên phi tuyến, và điểm ngôi sao nằm gần tọa độ nào?",
+    "status": "answered",
+    "answer": "Hình 4-12 thêm đặc trưng phi tuyến Sepal width bình phương (Sepal width²) cho hồi quy logistic và SVM, giúp tạo biên cong [dsfb_2013_excerpt:p130:text:000][dsfb_2013_excerpt:p130:figure:4-12]. Điểm ngôi sao (Versicolor) nằm gần Sepal width 4 và Petal width 0.7 [dsfb_2013_excerpt:p130:figure:4-12].",
+    "citations": [
+      "dsfb_2013_excerpt:p130:text:000",
+      "dsfb_2013_excerpt:p130:figure:4-12"
+    ],
+    "searches": [
+      {
+        "query": "Figure 4-12 nonlinear decision boundary polynomial features star",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p130:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 130,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04865990111891751,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p130:figure:4-12",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 130,
+            "content_type": "chart",
+            "label": "Figure 4-12",
+            "bbox": [
+              79.2,
+              57.2,
+              424.8,
+              356.8
+            ],
+            "score": 0.048651507139079855,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p108:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 108,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046897546897546896,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p124:figure:4-10",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 124,
+            "content_type": "chart",
+            "label": "Figure 4-10",
+            "bbox": [
+              98.4,
+              326.6,
+              405.6,
+              504.2
+            ],
+            "score": 0.04569460390355913,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 7,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p116:figure:4-8",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 116,
+            "content_type": "chart",
+            "label": "Figure 4-8",
+            "bbox": [
+              79.2,
+              57.2,
+              424.8,
+              340.2
+            ],
+            "score": 0.04434349989184512,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 9,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p115:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 115,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p130:text:000",
+          "dsfb_2013_excerpt:p130:figure:4-12",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p124:figure:4-10",
+          "dsfb_2013_excerpt:p116:figure:4-8",
+          "dsfb_2013_excerpt:p115:text:000"
+        ],
+        "context_chars": 4341
+      }
+    ],
+    "elapsed_ms": 5250.826800009236,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t17",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "So sánh hai phép chia Balance và Residence: information gain lần lượt là bao nhiêu và chênh nhau bao nhiêu?",
+    "status": "answered",
+    "answer": "Theo tài liệu, information gain của phép chia Balance (ngưỡng 50K) khoảng 0,37 [dsfb_2013_excerpt:p078:text:000], còn information gain của phép chia Residence khoảng 0,13 [dsfb_2013_excerpt:p079:text:000]. Hai giá trị này chênh nhau khoảng 0,24 (0,37 − 0,13), nên Balance cho information gain cao hơn Residence.",
+    "citations": [
+      "dsfb_2013_excerpt:p078:text:000",
+      "dsfb_2013_excerpt:p079:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Balance Residence information gain split",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p079:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 79,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p078:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 78,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p080:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 80,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p091:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 91,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p076:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 76,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p080:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 80,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p079:text:000",
+          "dsfb_2013_excerpt:p078:text:000",
+          "dsfb_2013_excerpt:p080:text:000",
+          "dsfb_2013_excerpt:p091:text:002",
+          "dsfb_2013_excerpt:p076:text:000",
+          "dsfb_2013_excerpt:p080:text:001"
+        ],
+        "context_chars": 6859
+      }
+    ],
+    "elapsed_ms": 5624.623499999871,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t18",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "Ví dụ Iris dùng hai loài và hai đặc trưng nào, và ở Hình 4-7 mô hình nào phân loại sai điểm sao (3,1)?",
+    "status": "answered",
+    "answer": "Ví dụ Iris dùng hai loài là Iris Setosa và Iris Versicolor, với hai đặc trưng là Sepal width (chiều rộng đài hoa) và Petal width (chiều rộng cánh hoa) [dsfb_2013_excerpt:p112:text:001] [dsfb_2013_excerpt:p113:text:000]. Ở Hình 4-7, mô hình phân loại sai điểm sao (3, 1) là Support Vector Machine (SVM) [dsfb_2013_excerpt:p113:figure:4-7] [dsfb_2013_excerpt:p113:text:000]. Hồi quy logistic phân tách đúng tất cả các mẫu được hiển thị trong hình [dsfb_2013_excerpt:p113:text:000].",
+    "citations": [
+      "dsfb_2013_excerpt:p112:text:001",
+      "dsfb_2013_excerpt:p113:text:000",
+      "dsfb_2013_excerpt:p113:figure:4-7"
+    ],
+    "searches": [
+      {
+        "query": "Iris dataset two classes petal length petal width",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p113:figure:4-7",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 113,
+            "content_type": "chart",
+            "label": "Figure 4-7",
+            "bbox": [
+              79.2,
+              111.0,
+              424.8,
+              410.6
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p112:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 112,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04838709677419355,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p130:figure:4-12",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 130,
+            "content_type": "chart",
+            "label": "Figure 4-12",
+            "bbox": [
+              79.2,
+              57.2,
+              424.8,
+              356.8
+            ],
+            "score": 0.047619047619047616,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p113:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 113,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046634615384615385,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p084:figure:3-7",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 84,
+            "content_type": "chart",
+            "label": "Figure 3-7",
+            "bbox": [
+              101.2,
+              57.2,
+              402.8,
+              306.4
+            ],
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p082:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 82,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p113:figure:4-7",
+          "dsfb_2013_excerpt:p112:text:001",
+          "dsfb_2013_excerpt:p130:figure:4-12",
+          "dsfb_2013_excerpt:p113:text:000",
+          "dsfb_2013_excerpt:p084:figure:3-7",
+          "dsfb_2013_excerpt:p082:text:001"
+        ],
+        "context_chars": 4215
+      }
+    ],
+    "elapsed_ms": 6050.6584999966435,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t19",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "Bộ Wisconsin có bao nhiêu mẫu, logistic regression và cây đạt độ chính xác nào, và chênh lệch đó tương ứng bao nhiêu lỗi?",
+    "status": "answered",
+    "answer": "Bộ Wisconsin có 569 mẫu (357 lành tính và 212 ác tính) [dsfb_2013_excerpt:p128:text:000]. Hồi quy logistic đạt độ chính xác khoảng 98,9%, tức là mắc sáu lỗi trên toàn bộ dữ liệu. Cây phân loại đạt 99,1% [dsfb_2013_excerpt:p129:text:000]. Chênh lệch là 0,2 điểm phần trăm, tương ứng khoảng 1 lỗi theo phép tính từ 569 mẫu (cây khoảng 5 lỗi so với 6 lỗi của hồi quy logistic). Tài liệu không nêu trực tiếp số lỗi của cây, nên con số 5 lỗi là suy ra từ tỷ lệ chính xác.",
+    "citations": [
+      "dsfb_2013_excerpt:p128:text:000",
+      "dsfb_2013_excerpt:p129:text:000"
+    ],
+    "searches": [
+      {
+        "query": "Wisconsin breast cancer dataset number of samples logistic regression decision tree accuracy",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p127:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 127,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046671404880360104,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 7,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p129:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 129,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046634615384615385,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04643206256109482,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p127:figure:4-11",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 127,
+            "content_type": "image",
+            "label": "Figure 4-11",
+            "bbox": [
+              98.4,
+              274.2,
+              405.6,
+              466.2
+            ],
+            "score": 0.04639423076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p127:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 127,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p127:text:001",
+          "dsfb_2013_excerpt:p101:text:000",
+          "dsfb_2013_excerpt:p129:text:000",
+          "dsfb_2013_excerpt:p128:text:000",
+          "dsfb_2013_excerpt:p127:figure:4-11",
+          "dsfb_2013_excerpt:p127:text:000"
+        ],
+        "context_chars": 6041
+      }
+    ],
+    "elapsed_ms": 7739.56439999165,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t20",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "Với xác suất 0.9, Bảng 4-1 và 4-2 lần lượt cho odds và log-odds nào?",
+    "status": "answered",
+    "answer": "Với xác suất 0.9, Bảng 4-1 cho odds là 90:10 hoặc 9 [dsfb_2013_excerpt:p121:table:4-1]. Bảng 4-2 cho log-odds tương ứng là 2.19 [dsfb_2013_excerpt:p122:table:4-2]. Hai ý này được xác nhận từ hai trang độc lập: trang 121 cho odds và trang 122 cho log-odds.",
+    "citations": [
+      "dsfb_2013_excerpt:p121:table:4-1",
+      "dsfb_2013_excerpt:p122:table:4-2"
+    ],
+    "searches": [
+      {
+        "query": "Table 4-1 odds probability 0.9",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p122:table:4-2",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "table",
+            "label": "Table 4-2",
+            "bbox": [
+              72.0,
+              138.0,
+              432.0,
+              290.0
+            ],
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p122:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04764267990074442,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p122:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 122,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              152.2,
+              204.37,
+              166.6
+            ],
+            "score": 0.047371031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:table:4-1",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "table",
+            "label": "Table 4-1",
+            "bbox": [
+              72.0,
+              480.0,
+              432.0,
+              610.0
+            ],
+            "score": 0.04712301587301587,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              492.16,
+              177.92,
+              506.56
+            ],
+            "score": 0.04643206256109482,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p121:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 121,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p122:table:4-2",
+          "dsfb_2013_excerpt:p122:text:000",
+          "dsfb_2013_excerpt:p122:table:00",
+          "dsfb_2013_excerpt:p121:table:4-1",
+          "dsfb_2013_excerpt:p121:table:00",
+          "dsfb_2013_excerpt:p121:text:001"
+        ],
+        "context_chars": 3672
+      }
+    ],
+    "elapsed_ms": 5180.050399998436,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t21",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Điểm khác biệt cốt lõi giữa bài toán supervised và unsupervised là gì, và supervised còn cần điều kiện dữ liệu nào?",
+    "status": "answered",
+    "answer": "Điểm khác biệt cốt lõi là supervised có một mục tiêu (target) cụ thể cần dự đoán, còn unsupervised không có target. Khi không có target, bài toán được gọi là unsupervised; ví dụ hỏi \"khách hàng có tự nhiên chia thành các nhóm không?\" [dsfb_2013_excerpt:p048:text:000]. Khi có target, như \"khách hàng nào có khả năng hủy dịch vụ sau khi hết hợp đồng?\", bài toán là supervised [dsfb_2013_excerpt:p048:text:000]. Phân nhóm supervised được tạo ra để phục vụ mục đích dự đoán target, còn clustering (unsupervised) tạo nhóm dựa trên độ tương đồng nhưng không đảm bảo các tương đồng đó hữu ích cho mục đích cụ thể nào [dsfb_2013_excerpt:p048:text:001].\n\nVề điều kiện dữ liệu, supervised cần có dữ liệu về target: target phải tồn tại trong dữ liệu, không chỉ tồn tại về nguyên tắc. Ví dụ, nếu dữ liệu lịch sử về việc giữ chân khách hàng bị thiếu hoặc không đầy đủ (chỉ lưu 2 tháng), thì không thể cung cấp giá trị target [dsfb_2013_excerpt:p048:text:001]. Giá trị target của từng cá thể được gọi là nhãn (label), và thường phải tốn chi phí để gán nhãn dữ liệu, dù không phải lúc nào cũng vậy [dsfb_2013_excerpt:p048:text:002].",
+    "citations": [
+      "dsfb_2013_excerpt:p048:text:000",
+      "dsfb_2013_excerpt:p048:text:001",
+      "dsfb_2013_excerpt:p048:text:002"
+    ],
+    "searches": [
+      {
+        "query": "supervised vs unsupervised learning labeled data",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p048:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 48,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04793840039741679,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p048:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 48,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04787506400409626,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p049:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 49,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04477611940298507,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 7,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p072:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 72,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.044117647058823525,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 8,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p009:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 9,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p048:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 48,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p048:text:000",
+          "dsfb_2013_excerpt:p048:text:001",
+          "dsfb_2013_excerpt:p049:text:001",
+          "dsfb_2013_excerpt:p072:text:000",
+          "dsfb_2013_excerpt:p009:text:000",
+          "dsfb_2013_excerpt:p048:text:002"
+        ],
+        "context_chars": 7831
+      }
+    ],
+    "elapsed_ms": 7276.051299995743,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t22",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Data leakage là gì? Hãy nêu một ví dụ trong tài liệu.",
+    "status": "answered",
+    "answer": "Data leakage (rò rỉ dữ liệu) là tình huống một biến trong dữ liệu lịch sử cung cấp thông tin về biến mục tiêu, nhưng thông tin đó không có sẵn tại thời điểm cần đưa ra quyết định [dsfb_2013_excerpt:p054:text:001]. Ví dụ trong tài liệu: khi dự đoán một khách truy cập website sẽ kết thúc phiên hay tiếp tục lướt sang trang khác, biến “tổng số trang web đã truy cập trong phiên” có tính dự báo, nhưng chỉ biết giá trị này sau khi phiên kết thúc, lúc đó đã biết luôn giá trị của biến mục tiêu [dsfb_2013_excerpt:p054:text:001]. Một ví dụ khác là dự đoán khách hàng có phải “big spender” hay không: số loại mặt hàng đã mua (hoặc tệ hơn là số thuế đã trả) rất có tính dự báo nhưng không biết tại thời điểm ra quyết định [dsfb_2013_excerpt:p054:text:002].",
+    "citations": [
+      "dsfb_2013_excerpt:p054:text:001",
+      "dsfb_2013_excerpt:p054:text:002"
+    ],
+    "searches": [
+      {
+        "query": "data leakage",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p054:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 54,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04918032786885246,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p054:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 54,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04787506400409626,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p009:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 9,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p032:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 32,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p031:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 31,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p026:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 26,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p054:text:002",
+          "dsfb_2013_excerpt:p054:text:001",
+          "dsfb_2013_excerpt:p009:text:000",
+          "dsfb_2013_excerpt:p032:text:000",
+          "dsfb_2013_excerpt:p031:text:002",
+          "dsfb_2013_excerpt:p026:text:001"
+        ],
+        "context_chars": 6968
+      }
+    ],
+    "elapsed_ms": 5460.5913999985205,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t23",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Vì sao phải đánh giá mô hình trước khi triển khai, và độ chính xác trên 99% vẫn có thể thất bại kinh doanh như thế nào?",
+    "status": "answered",
+    "answer": "Theo tài liệu, cần đánh giá mô hình trước khi triển khai vì mục tiêu của khai phá dữ liệu là hỗ trợ ra quyết định kinh doanh, nên mô hình chỉ là một phần của giải pháp lớn hơn và phải được đánh giá theo đúng vai trò đó. Ngay cả khi đạt tốt trong phòng thí nghiệm, mô hình vẫn có thể không khả thi trong bối cảnh kinh doanh thực tế [dsfb_2013_excerpt:p055:text:001]. Ngoài ra, nên thử nghiệm trong môi trường mô phỏng dữ liệu sản xuất, vì khi triển khai thường khó đánh giá đầy đủ; dữ liệu đầu vào có thể đổi định dạng hoặc nội dung mà không báo cho đội khoa học dữ liệu, và hành vi đối tượng có thể thay đổi, như gian lận hay spam phản ứng lại mô hình [dsfb_2013_excerpt:p056:text:002] [dsfb_2013_excerpt:p056:text:001]. Về độ chính xác trên 99%: tài liệu nêu rằng một mô hình phát hiện (gian lận, spam, xâm nhập) có thể đạt trên 99% theo tiêu chuẩn phòng thí nghiệm nhưng vẫn tạo quá nhiều cảnh báo sai, khiến chi phí nhân sự xử lý và sự không hài lòng của khách hàng làm nó không khả thi về kinh tế [dsfb_2013_excerpt:p055:text:001]. Tài liệu không nêu con số cụ thể về chi phí hay tỷ lệ cảnh báo sai.",
+    "citations": [
+      "dsfb_2013_excerpt:p055:text:001",
+      "dsfb_2013_excerpt:p056:text:002",
+      "dsfb_2013_excerpt:p056:text:001"
+    ],
+    "searches": [
+      {
+        "query": "model evaluation before deployment accuracy imbalanced classes business risk",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p129:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 129,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.044610507246376815,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p056:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 56,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p056:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 56,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p056:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 56,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p129:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 129,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p129:text:001",
+          "dsfb_2013_excerpt:p056:text:000",
+          "dsfb_2013_excerpt:p056:text:002",
+          "dsfb_2013_excerpt:p056:text:001",
+          "dsfb_2013_excerpt:p101:text:000",
+          "dsfb_2013_excerpt:p129:text:000"
+        ],
+        "context_chars": 7779
+      },
+      {
+        "query": "accuracy misleading class imbalance cost of errors business",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p119:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 119,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.047371031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p129:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 129,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p120:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 120,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p055:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 55,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p125:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 125,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p129:text:001",
+          "dsfb_2013_excerpt:p056:text:000",
+          "dsfb_2013_excerpt:p056:text:002",
+          "dsfb_2013_excerpt:p056:text:001",
+          "dsfb_2013_excerpt:p101:text:000",
+          "dsfb_2013_excerpt:p129:text:000",
+          "dsfb_2013_excerpt:p119:text:001",
+          "dsfb_2013_excerpt:p120:text:000",
+          "dsfb_2013_excerpt:p055:text:001",
+          "dsfb_2013_excerpt:p125:text:002"
+        ],
+        "context_chars": 12808
+      }
+    ],
+    "elapsed_ms": 15317.87460000487,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t24",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Tài liệu nêu hai lý do thực tế nào khiến phải triển khai mô hình thay vì để con người tự quyết định từng trường hợp?",
+    "status": "answered",
+    "answer": "Tài liệu nêu hai lý do chính để triển khai chính hệ thống khai phá dữ liệu thay vì chỉ triển khai các mô hình nó tạo ra: (i) thế giới có thể thay đổi nhanh hơn tốc độ thích nghi của đội ngũ khoa học dữ liệu, như trong phát hiện gian lận và xâm nhập [dsfb_2013_excerpt:p057:text:000]; (ii) doanh nghiệp có quá nhiều tác vụ mô hình hóa để đội ngũ khoa học dữ liệu có thể tự tay quản lý từng mô hình [dsfb_2013_excerpt:p057:text:000].",
+    "citations": [
+      "dsfb_2013_excerpt:p057:text:000"
+    ],
+    "searches": [
+      {
+        "query": "reasons deploy model instead of human decision case-by-case",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p058:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 58,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04640151515151515,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p105:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 105,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p057:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 57,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p033:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 33,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p070:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 70,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p031:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 31,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p058:text:002",
+          "dsfb_2013_excerpt:p105:text:000",
+          "dsfb_2013_excerpt:p057:text:000",
+          "dsfb_2013_excerpt:p033:text:002",
+          "dsfb_2013_excerpt:p070:text:000",
+          "dsfb_2013_excerpt:p031:text:000"
+        ],
+        "context_chars": 7102
+      }
+    ],
+    "elapsed_ms": 4395.836900002905,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t25",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Tài liệu cho biết giá cổ phiếu MegaTelCo ngày 14/11/2026 là bao nhiêu?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "searches": [
+      {
+        "query": "MegaTelCo stock price 14/11/2026 closing price",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p013:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 13,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04891591750396616,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p028:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 28,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04669647292598113,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p034:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 34,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04547511312217195,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 8,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:figure:3-14",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "diagram",
+            "label": "Figure 3-14",
+            "bbox": [
+              86.9,
+              67.2,
+              417.1,
+              560.9
+            ],
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p013:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 13,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p013:text:001",
+          "dsfb_2013_excerpt:p028:text:001",
+          "dsfb_2013_excerpt:p034:text:000",
+          "dsfb_2013_excerpt:p092:text:000",
+          "dsfb_2013_excerpt:p092:figure:3-14",
+          "dsfb_2013_excerpt:p013:text:000"
+        ],
+        "context_chars": 5546
+      },
+      {
+        "query": "MegaTelCo stock closing price November 14 2026",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p013:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 13,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04891591750396616,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p028:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 28,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.047643442622950824,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p092:figure:3-14",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "diagram",
+            "label": "Figure 3-14",
+            "bbox": [
+              86.9,
+              67.2,
+              417.1,
+              560.9
+            ],
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p044:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 44,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p009:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 9,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p013:text:001",
+          "dsfb_2013_excerpt:p028:text:001",
+          "dsfb_2013_excerpt:p034:text:000",
+          "dsfb_2013_excerpt:p092:text:000",
+          "dsfb_2013_excerpt:p092:figure:3-14",
+          "dsfb_2013_excerpt:p013:text:000",
+          "dsfb_2013_excerpt:p044:text:000",
+          "dsfb_2013_excerpt:p009:text:000"
+        ],
+        "context_chars": 8359
+      }
+    ],
+    "elapsed_ms": 8521.199299997534,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t26",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Bảng nào liệt kê cấu hình GPU dùng để huấn luyện mô hình churn?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "searches": [
+      {
+        "query": "churn model training GPU configuration table",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04764267990074442,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p069:figure:3-1",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 69,
+            "content_type": "diagram",
+            "label": "Figure 3-1",
+            "bbox": [
+              125.1,
+              67.2,
+              378.9,
+              269.8
+            ],
+            "score": 0.04640151515151515,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 6,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p070:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 70,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p105:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 105,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p098:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 98,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.06,
+              373.19,
+              324.35,
+              387.59
+            ],
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:figure:3-18",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "diagram",
+            "label": "Figure 3-18",
+            "bbox": [
+              79.2,
+              57.2,
+              424.8,
+              400.4
+            ],
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p069:figure:3-1",
+          "dsfb_2013_excerpt:p070:text:000",
+          "dsfb_2013_excerpt:p105:text:000",
+          "dsfb_2013_excerpt:p098:table:00",
+          "dsfb_2013_excerpt:p101:figure:3-18"
+        ],
+        "context_chars": 3934
+      },
+      {
+        "query": "GPU configuration table churn training",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.048171500630517027,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p098:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 98,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.06,
+              373.19,
+              324.35,
+              387.59
+            ],
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:figure:3-18",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "diagram",
+            "label": "Figure 3-18",
+            "bbox": [
+              79.2,
+              57.2,
+              424.8,
+              400.4
+            ],
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p128:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 128,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              70.6,
+              296.54,
+              85.0
+            ],
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p081:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 81,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              430.16,
+              432.0,
+              444.56
+            ],
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p082:table:00",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 82,
+            "content_type": "table",
+            "label": null,
+            "bbox": [
+              72.0,
+              54.0,
+              432.0,
+              68.4
+            ],
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p069:figure:3-1",
+          "dsfb_2013_excerpt:p070:text:000",
+          "dsfb_2013_excerpt:p105:text:000",
+          "dsfb_2013_excerpt:p098:table:00",
+          "dsfb_2013_excerpt:p101:figure:3-18",
+          "dsfb_2013_excerpt:p128:table:00",
+          "dsfb_2013_excerpt:p081:table:00",
+          "dsfb_2013_excerpt:p082:table:00"
+        ],
+        "context_chars": 4334
+      }
+    ],
+    "elapsed_ms": 7818.846099995426,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t27",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Tác giả báo cáo BLEU score bao nhiêu cho hệ thống dịch máy?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "searches": [
+      {
+        "query": "BLEU score machine translation",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p124:figure:4-10",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 124,
+            "content_type": "chart",
+            "label": "Figure 4-10",
+            "bbox": [
+              98.4,
+              326.6,
+              405.6,
+              504.2
+            ],
+            "score": 0.04727963886909005,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 9,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p081:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 81,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04572376214167259,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p064:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 64,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p045:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 45,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p124:figure:4-10",
+          "dsfb_2013_excerpt:p081:text:000",
+          "dsfb_2013_excerpt:p063:text:002",
+          "dsfb_2013_excerpt:p064:text:000",
+          "dsfb_2013_excerpt:p063:text:001",
+          "dsfb_2013_excerpt:p045:text:000"
+        ],
+        "context_chars": 6824
+      },
+      {
+        "query": "BLEU machine translation evaluation",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p051:figure:2-2",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 51,
+            "content_type": "diagram",
+            "label": "Figure 2-2",
+            "bbox": [
+              105.0,
+              98.5,
+              399.0,
+              392.4
+            ],
+            "score": 0.043478260869565216,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 9,
+              "tfidf": 9
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p064:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 64,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p012:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 12,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:figure:3-18",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "diagram",
+            "label": "Figure 3-18",
+            "bbox": [
+              79.2,
+              57.2,
+              424.8,
+              400.4
+            ],
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p124:figure:4-10",
+          "dsfb_2013_excerpt:p081:text:000",
+          "dsfb_2013_excerpt:p063:text:002",
+          "dsfb_2013_excerpt:p064:text:000",
+          "dsfb_2013_excerpt:p063:text:001",
+          "dsfb_2013_excerpt:p045:text:000",
+          "dsfb_2013_excerpt:p051:figure:2-2",
+          "dsfb_2013_excerpt:p012:text:000",
+          "dsfb_2013_excerpt:p101:figure:3-18"
+        ],
+        "context_chars": 8951
+      },
+      {
+        "query": "machine translation translation quality metric",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p081:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 81,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04547574626865672,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p064:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 64,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p055:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 55,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p124:figure:4-10",
+          "dsfb_2013_excerpt:p081:text:000",
+          "dsfb_2013_excerpt:p063:text:002",
+          "dsfb_2013_excerpt:p064:text:000",
+          "dsfb_2013_excerpt:p063:text:001",
+          "dsfb_2013_excerpt:p045:text:000",
+          "dsfb_2013_excerpt:p051:figure:2-2",
+          "dsfb_2013_excerpt:p012:text:000",
+          "dsfb_2013_excerpt:p101:figure:3-18",
+          "dsfb_2013_excerpt:p055:text:002",
+          "dsfb_2013_excerpt:p063:text:000"
+        ],
+        "context_chars": 10988
+      },
+      {
+        "query": "BLEU translation evaluation",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p012:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 12,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p101:figure:3-18",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 101,
+            "content_type": "diagram",
+            "label": "Figure 3-18",
+            "bbox": [
+              79.2,
+              57.2,
+              424.8,
+              400.4
+            ],
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p056:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 56,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p129:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 129,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p055:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 55,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p051:figure:2-2",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 51,
+            "content_type": "diagram",
+            "label": "Figure 2-2",
+            "bbox": [
+              105.0,
+              98.5,
+              399.0,
+              392.4
+            ],
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p124:figure:4-10",
+          "dsfb_2013_excerpt:p081:text:000",
+          "dsfb_2013_excerpt:p063:text:002",
+          "dsfb_2013_excerpt:p064:text:000",
+          "dsfb_2013_excerpt:p063:text:001",
+          "dsfb_2013_excerpt:p045:text:000",
+          "dsfb_2013_excerpt:p051:figure:2-2",
+          "dsfb_2013_excerpt:p012:text:000",
+          "dsfb_2013_excerpt:p101:figure:3-18",
+          "dsfb_2013_excerpt:p055:text:002",
+          "dsfb_2013_excerpt:p063:text:000",
+          "dsfb_2013_excerpt:p056:text:000",
+          "dsfb_2013_excerpt:p129:text:001"
+        ],
+        "context_chars": 13942
+      }
+    ],
+    "elapsed_ms": 10789.468000002671,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t28",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Hình nào mô tả kiến trúc ResNet-152 và số lớp chính xác của nó?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "searches": [
+      {
+        "query": "ResNet-152 architecture figure layers",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p092:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 92,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p108:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 108,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p040:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 40,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p051:figure:2-2",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 51,
+            "content_type": "diagram",
+            "label": "Figure 2-2",
+            "bbox": [
+              105.0,
+              98.5,
+              399.0,
+              392.4
+            ],
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p084:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 84,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p100:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p092:text:000",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p040:text:000",
+          "dsfb_2013_excerpt:p051:figure:2-2",
+          "dsfb_2013_excerpt:p084:text:000",
+          "dsfb_2013_excerpt:p100:text:000"
+        ],
+        "context_chars": 4254
+      },
+      {
+        "query": "ResNet residual network 152 layers skip connection",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p036:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 36,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p123:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 123,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p115:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 115,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p129:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 129,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.01639344262295082,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p034:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 34,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.016129032258064516,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p118:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 118,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.015873015873015872,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p092:text:000",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p040:text:000",
+          "dsfb_2013_excerpt:p051:figure:2-2",
+          "dsfb_2013_excerpt:p084:text:000",
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p036:text:000",
+          "dsfb_2013_excerpt:p123:text:001",
+          "dsfb_2013_excerpt:p115:text:001",
+          "dsfb_2013_excerpt:p129:text:002",
+          "dsfb_2013_excerpt:p034:text:002",
+          "dsfb_2013_excerpt:p118:text:001"
+        ],
+        "context_chars": 10986
+      },
+      {
+        "query": "ResNet-152 deep residual learning 152 layers",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p005:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 5,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p048:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 48,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p037:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 37,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p064:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 64,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p092:text:000",
+          "dsfb_2013_excerpt:p108:text:000",
+          "dsfb_2013_excerpt:p040:text:000",
+          "dsfb_2013_excerpt:p051:figure:2-2",
+          "dsfb_2013_excerpt:p084:text:000",
+          "dsfb_2013_excerpt:p100:text:000",
+          "dsfb_2013_excerpt:p036:text:000",
+          "dsfb_2013_excerpt:p123:text:001",
+          "dsfb_2013_excerpt:p115:text:001",
+          "dsfb_2013_excerpt:p129:text:002",
+          "dsfb_2013_excerpt:p034:text:002",
+          "dsfb_2013_excerpt:p118:text:001",
+          "dsfb_2013_excerpt:p005:text:000",
+          "dsfb_2013_excerpt:p063:text:002",
+          "dsfb_2013_excerpt:p063:text:001"
+        ],
+        "context_chars": 13915
+      }
+    ],
+    "elapsed_ms": 10994.754600003944,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t29",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Tỷ giá USD/VND được dùng trong phân tích chi phí là bao nhiêu?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "searches": [
+      {
+        "query": "USD VND exchange rate cost analysis",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p034:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 34,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.04689826302729529,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p060:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 60,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p086:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 86,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p061:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 61,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p055:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 55,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p063:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 63,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.030303030303030304,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 6
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p034:text:002",
+          "dsfb_2013_excerpt:p060:text:002",
+          "dsfb_2013_excerpt:p086:text:001",
+          "dsfb_2013_excerpt:p061:text:000",
+          "dsfb_2013_excerpt:p055:text:001",
+          "dsfb_2013_excerpt:p063:text:000"
+        ],
+        "context_chars": 6792
+      },
+      {
+        "query": "exchange rate VND dollar conversion",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p034:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 34,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.045235361653272105,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 5,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p060:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 60,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p053:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 53,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p086:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 86,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p061:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 61,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p072:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 72,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p034:text:002",
+          "dsfb_2013_excerpt:p060:text:002",
+          "dsfb_2013_excerpt:p086:text:001",
+          "dsfb_2013_excerpt:p061:text:000",
+          "dsfb_2013_excerpt:p055:text:001",
+          "dsfb_2013_excerpt:p063:text:000",
+          "dsfb_2013_excerpt:p053:text:002",
+          "dsfb_2013_excerpt:p072:text:001"
+        ],
+        "context_chars": 8981
+      }
+    ],
+    "elapsed_ms": 7710.029199995915,
+    "error_type": null,
+    "error": null
+  },
+  {
+    "query_id": "t30",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Tài liệu khẳng định mô hình nào chiến thắng cuộc thi Kaggle năm 2024?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "searches": [
+      {
+        "query": "Kaggle 2024 competition winning model",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p049:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 49,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.046244188891607536,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p105:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 105,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p070:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 70,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p105:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 105,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.031746031746031744,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p109:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 109,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03125,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p056:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 56,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03076923076923077,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 5
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p049:text:002",
+          "dsfb_2013_excerpt:p105:text:000",
+          "dsfb_2013_excerpt:p070:text:000",
+          "dsfb_2013_excerpt:p105:text:001",
+          "dsfb_2013_excerpt:p109:text:001",
+          "dsfb_2013_excerpt:p056:text:000"
+        ],
+        "context_chars": 6859
+      },
+      {
+        "query": "Kaggle competition winner",
+        "results": [
+          {
+            "id": "dsfb_2013_excerpt:p003:text:000",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 3,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p030:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 30,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.03225806451612903,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p023:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 23,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.01639344262295082,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 1
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p087:text:002",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 87,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.016129032258064516,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 2
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p100:figure:3-17",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 100,
+            "content_type": "chart",
+            "label": "Figure 3-17",
+            "bbox": [
+              86.6,
+              57.2,
+              417.4,
+              448.2
+            ],
+            "score": 0.015873015873015872,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 3
+            }
+          },
+          {
+            "id": "dsfb_2013_excerpt:p022:text:001",
+            "source_id": "dsfb_2013_excerpt",
+            "page": 22,
+            "content_type": "text",
+            "label": null,
+            "bbox": null,
+            "score": 0.015625,
+            "strategy": "hybrid-rrf",
+            "component_ranks": {
+              "day6-dense-ADVANCED_DSFB": 4
+            }
+          }
+        ],
+        "context_ids": [
+          "dsfb_2013_excerpt:p049:text:002",
+          "dsfb_2013_excerpt:p105:text:000",
+          "dsfb_2013_excerpt:p070:text:000",
+          "dsfb_2013_excerpt:p105:text:001",
+          "dsfb_2013_excerpt:p109:text:001",
+          "dsfb_2013_excerpt:p056:text:000",
+          "dsfb_2013_excerpt:p003:text:000",
+          "dsfb_2013_excerpt:p030:text:001",
+          "dsfb_2013_excerpt:p023:text:001",
+          "dsfb_2013_excerpt:p087:text:002",
+          "dsfb_2013_excerpt:p100:figure:3-17",
+          "dsfb_2013_excerpt:p022:text:001"
+        ],
+        "context_chars": 12723
+      }
+    ],
+    "elapsed_ms": 12524.181300002965,
+    "error_type": null,
+    "error": null
+  }
+]

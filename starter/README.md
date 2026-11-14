@@ -5,6 +5,11 @@
 | `agentic.py` | Khung agent ví dụ với số lượt search, top-k và context budget có thể cấu hình |
 | `baseline.py` | TF-IDF lexical baseline, chạy offline |
 | `convert_day6.py` | Chuyển một số trường JSON từ Day 6 |
+| `day6_connection.py` | Nối pgvector + embedding Day 6 và xuất JSON Day 7 |
+| `retrieval.py` | TF-IDF, dense Day 6 và hybrid RRF |
+| `benchmark_retrieval.py` | Benchmark retrieval trên dev/test tách biệt |
+| `model_controller.py` | Controller model thật bằng Structured Outputs |
+| `run_agent_cli.py` | Chạy agent và lưu trace, usage, lỗi |
 | `agent_metrics.py` | Tổng hợp nhãn đánh giá do bạn tự chấm |
 
 Starter **chưa phải solution hoàn chỉnh**. Bạn phải nối model và vector store thật, triển khai ít nhất 3 phương pháp retrieval do bạn chọn, gồm dense trên vector store Day 6. Mock chỉ dùng để test code.
@@ -30,6 +35,53 @@ python3 starter/baseline.py --chunks data/example_chunks.json --questions data/e
 Kết quả có `summary.json` và `traces.json`. Dữ liệu mẫu chỉ có một câu, không đủ để nộp bài. TF-IDF là lexical retrieval, không dùng filter và không thay dense retrieval.
 
 ## 3. Dùng dữ liệu Day 6
+
+Với bài Day 6 ở thư mục anh em `../lab06`, có thể kiểm tra kết nối và xuất
+strategy B trực tiếp:
+
+```powershell
+docker compose -p day6_student_starter -f ..\lab06\starter\docker-compose.yml up -d --wait
+..\lab06\starter\.venv\Scripts\python.exe starter\day6_connection.py --check --export data
+```
+
+Trong code agent:
+
+```python
+from day6_connection import Day6DenseRetriever
+
+retriever = Day6DenseRetriever(strategy="B")
+result = run_agent(question, controller, retriever, filters=filters)
+```
+
+Có thể đặt `DAY6_ENV_FILE` hoặc `DAY6_DATABASE_URL` nếu Day 6 nằm ở vị trí
+khác. Không commit URL có mật khẩu thật.
+
+### Chạy agent với model thật
+
+Cài dependency, đặt `ANTHROPIC_API_KEY` và `ANTHROPIC_MODEL` trong file `.env`
+hoặc biến môi trường, sau đó smoke test một câu dev:
+
+```powershell
+python -m pip install -r requirements.txt
+$env:HF_HUB_OFFLINE="1"
+python starter\run_agent_cli.py `
+  --chunks data\day6_chunks.json `
+  --questions data\day6_questions.json `
+  --split dev --question-id q01 `
+  --provider anthropic `
+  --method hybrid_interleave `
+  --output starter\results\agent-dev-smoke
+```
+
+Nếu smoke test tốt, bỏ `--question-id q01` để chạy toàn bộ dev. Không chạy
+test trước khi chốt cấu hình. Lỗi API/database được ghi `status: error`, không
+được thay bằng câu trả lời giả.
+
+Kết quả dev hiện tại chọn `hybrid_interleave`, `top_k=3`, metadata filter và
+context budget 3.000 ký tự: Hit@3 `15/15` và Context Evidence Rate `15/15`.
+Đây là cấu hình được khóa trước khi chạy test.
+
+### Chuyển file JSON thủ công
 
 Xuất chunk và câu hỏi thành hai JSON array. Starter Day 6 không quy định tên bảng hay cách xuất; bạn cần tự thực hiện. Nếu chunk có `chunk_id`, `document_id`, `source`, `page`, `text`, `metadata` và câu hỏi có `gold_source_id`, `gold_page`, `evidence_quote`, chạy:
 
